@@ -19849,7 +19849,7 @@ textarea {
 .for_enterprise_page .container {
 	max-width: 1440px;
 	margin: 0 auto;
-	padding: 0 120px 41px 60px;
+	padding: 0 60px 41px 60px;
 }
 
 .for_enterprise_page h1 {
@@ -19862,7 +19862,7 @@ textarea {
 }
 
 .for_enterprise_page .title {
-	padding: 292px 0 30px;
+	padding: 168px 0 30px;
 }
 
 .for_enterprise_page .under_title {
