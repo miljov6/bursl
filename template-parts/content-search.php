@@ -16,7 +16,7 @@
 			<?php _s_post_thumbnail();?>
 		</div>
 		<div class="post-rest">
-			<span id="date-read"><?php echo get_the_date('F j Y'); ?> </span>
+			<span id="date-read"><?php echo get_the_date('F j Y'); ?> • <?php echo reading_time(get_the_content()); ?></span>
 			<h4><a href="<?php echo get_permalink(); ?>"><?php echo the_title(); ?></a></h4>
 			<p><?php  echo wp_trim_words( get_the_content(), 20, '...' ); ?></p>
 		</div>

@@ -486,6 +486,7 @@
 
 .search-results-main {
   background: url("./icons/background.png");
+  background-size: cover;
 }
 
 .page-header .container {
@@ -498,7 +499,7 @@
 }
 
 .search-results {
-  border-radius: 50px 50px 0;
+  border-radius: 50px 50px 0 0;
   background-color: #fff;
 }
 
@@ -661,6 +662,174 @@
 .search-content p {
   margin: 0;
   color: #616d82;
+}
+
+.post .single-content {
+  background: transparent;
+}
+
+.post .single-content .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.post .single-content .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 152px 240px 288px 240px;
+}
+
+.post .single-content h1 {
+  font-size: 48px;
+  line-height: 65px;
+  color: #0a2244;
+  margin: 32px 0 24px;
+}
+
+.post .single-content .head-title {
+  padding: 0 60px;
+  display: grid;
+  gap: 0;
+}
+
+.post .single-content .back {
+  font-size: 16px;
+  line-height: 22px;
+  color: #616d82;
+  position: relative;
+  text-decoration: none;
+  max-width: 100px;
+  padding-left: 25px;
+}
+
+.post .single-content .back::before {
+  position: absolute;
+  content: url("./icons/arrow-left.svg");
+  margin-left: -25px;
+}
+
+.post .single-content .published {
+  font-size: 16px;
+  line-height: 22px;
+  color: #828fa5;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.post .blog-post .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  border-radius: 50px 50px 0 0;
+}
+
+.post .blog-post .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 240px 60px 240px;
+}
+
+.post .blog-post .thumb {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.post .blog-post .thumb img {
+  width: 100%;
+  height: auto;
+  margin-top: -280px;
+}
+
+.post .blog-post .content-text {
+  padding: 0 60px;
+}
+
+.post .yml {
+  border-radius: 0;
+  background: #fff;
+}
+
+.post .yml .container-fluid {
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+
+.post .yml .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px 60px 70px;
+  border-radius: 0;
+}
+
+.post .yml .you-may-like {
+  display: grid;
+  gap: 40px;
+}
+
+.post .yml .you-may-like h3 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65px;
+  color: #0a2244;
+  margin: 0;
+}
+
+.post .yml .other-post-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.post .yml .choosed-post {
+  padding: 24px 24px;
+  background: #fff;
+  border: 1px solid #e1e4ec;
+  border-radius: 12px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.post .yml .choosed-post .post-img {
+  position: relative;
+}
+
+.post .yml .choosed-post .post-img img {
+  max-width: 100%;
+  height: 226px;
+  width: 372px;
+}
+
+.post .yml .choosed-post a {
+  text-decoration: none;
+  color: #0a2244;
+  transition: color 0.5s;
+}
+
+.post .yml .choosed-post a:hover {
+  color: #f76c34;
+}
+
+.post .yml .choosed-post .post-rest span {
+  font-size: 15px;
+  line-height: 20px;
+  color: #828fa5;
+  margin: 0 0 4px;
+  text-transform: uppercase;
+}
+
+.post .yml .choosed-post .post-rest h4 {
+  margin: 0 0 12px;
+}
+
+.for_hiring_mangagers_underbox .container {
+  padding: 80px 60px 80px 60px !important;
+}
+
+.add_class .container {
+  padding: 80px 60px 150px 60px !important;
 }
 
 /*# sourceMappingURL=_header.css.map */

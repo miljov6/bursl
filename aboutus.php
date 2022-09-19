@@ -17,7 +17,7 @@ get_header();
         get_template_part('template-parts/about-us/second');
         get_template_part('template-parts/about-us/first');
         get_template_part('template-parts/about-us/second-2');
-        get_template_part('template-parts/about-us/first-2');
+        get_template_part('template-parts/about-us/first-1');
         get_template_part('template-parts/about-us/second-3');
         get_template_part('template-parts/about-us/book-demo');
 

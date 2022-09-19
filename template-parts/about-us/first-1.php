@@ -8,7 +8,7 @@
         $img = get_sub_field('image');
     ?>
         <div class="conctact_us_section">
-            <div class="container-fluid radius">
+            <div class="container-fluid">
                 <div class="container first">
                     <div class="boxes">
                     <div class="left">

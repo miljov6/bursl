@@ -11,7 +11,7 @@
 .text_icon_items .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 80px 60px 70px 92px;
+  padding: 80px 60px 70px 60px;
 }
 
 .text_icon_items h4 {
@@ -82,6 +82,7 @@
 .text_icon_items .boxes .right-box {
   display: grid;
   gap: 8px;
+  padding-right: 60px;
 }
 
 .text_icon_items .boxes .right-box .box {
@@ -104,6 +105,10 @@
 
 .text_icon_items .boxes .right-box .box .text {
   max-width: 480px;
+}
+
+.for-hiring-managers_section_1 .container {
+  padding: 80px 60px 100px 60px;
 }
 
 /*# sourceMappingURL=_text_icon_items.css.map */

@@ -6,7 +6,7 @@
         $subtitle = get_sub_field('subtitle');
         $text = get_sub_field('text');
     ?>
-        <div class="text_icon_items">
+        <div class="text_icon_items for-hiring-managers_section_1">
             <div class="container-fluid">
                 <div class="container">
                     <div class="boxes">
@@ -26,13 +26,14 @@
                         <div class="right-box">
                             <?php
                             $index = 1;
+                            $count = count(get_sub_field('services'));
                             if (have_rows('services')) :
                                 while (have_rows('services')) : the_row();
                                     $title = get_sub_field('title');
                                     $text = get_sub_field('text');
                                     $icon = get_sub_field('icon');
                             ?>
-                                    <div class="box" <?php if($index==4){echo 'style="border:0;"';}?>>
+                                    <div class="box" <?php if($index==$count){echo 'style="border:0;"';}?>>
                                         <div class="icon">
                                             <img src="<?php echo $icon['url'];?>">
                                         </div>
