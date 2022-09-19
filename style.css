@@ -892,6 +892,8 @@ textarea {
 .front {
 	background: #f3f2fa;
 	background-image: url("./icons/background.png");
+	background-size: cover;
+	background-size: cover;
 }
 
 .front .container-fluid {
