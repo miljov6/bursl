@@ -26,7 +26,7 @@
                         <div class="right-box">
                             <?php
                             $index = 1;
-                            $count = get_sub_field('services');
+                            $count = count(get_sub_field('services'));
                             if (have_rows('services')) :
                                 while (have_rows('services')) : the_row();
                                     $title = get_sub_field('title');

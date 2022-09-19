@@ -210,10 +210,12 @@
       border-bottom: 1px solid #e1e4ec;
       position: relative;
       padding: 16px 0;
+      transition: 0.45s;
       //transition: background-color 0.5s ease;
       &:hover {
         background-color: #f2f4fa;
         padding: 16px 20px 0 !important;
+        cursor: pointer;
         &::before {
           content: url("./icons/line.svg");
           position: absolute;

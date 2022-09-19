@@ -9,7 +9,7 @@
     ?>
         <div class="for_finance_teams_section">
             <div class="container-fluid">
-                <div class="container first">
+                <div class="container">
                     <div class="boxes">
                         <div class="left">
                             <div class="intro">

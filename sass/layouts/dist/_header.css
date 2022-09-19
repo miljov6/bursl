@@ -832,4 +832,17 @@
   padding: 80px 60px 150px 60px !important;
 }
 
+.invert_1 .intro {
+  grid-template-columns: 12fr 9fr !important;
+  padding: 10px 0 32px;
+}
+
+.fnt .container {
+  padding: 70px 90px 140px;
+}
+
+.about_us_sect .container {
+  padding: 50px 60px 100px 60px;
+}
+
 /*# sourceMappingURL=_header.css.map */

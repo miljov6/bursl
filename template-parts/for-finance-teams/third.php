@@ -11,13 +11,12 @@
             <div class="container-fluid">
                 <div class="container">
                     <div class="boxes">
-                        <div class="left">
+                    <div class="left">
+                            <img src="<?php echo $img['url']; ?>">
+                        </div>
+                        <div class="right">
                             <div class="intro">
-                                <?php if (!empty($subtitle)): ?>
-                                <div class="subtitle">
-                                    
-                                </div>
-                                <?php  endif; ?>
+                
                                 <div class="title">
                                     <h2><?php echo $title; ?></h2>
                                     <p><?php echo $text; ?></p>
@@ -39,9 +38,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="right">
-                            <img src="<?php echo $img['url']; ?>">
-                        </div>
+                        
                     </div>
                 </div>
             </div>

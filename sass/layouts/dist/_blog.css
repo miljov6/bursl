@@ -234,11 +234,13 @@
   border-bottom: 1px solid #e1e4ec;
   position: relative;
   padding: 16px 0;
+  transition: 0.45s;
 }
 
 .featured_blogs .boxes .box:hover {
   background-color: #f2f4fa;
   padding: 16px 20px 0 !important;
+  cursor: pointer;
 }
 
 .featured_blogs .boxes .box:hover::before {

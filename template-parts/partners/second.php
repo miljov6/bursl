@@ -7,11 +7,14 @@
         $text = get_sub_field('text');
         $img = get_sub_field('image');
     ?>
-        <div class="partners_page_section_r">
+        <div class="partners_page_section">
             <div class="container-fluid">
                 <div class="container">
                     <div class="boxes">
-                        <div class="left">
+                    <div class="left">
+                            <img src="<?php echo $img['url']; ?>">
+                        </div>
+                        <div class="right">
                             <div class="intro">
                                 <?php if (!empty($subtitle)): ?>
                                 <div class="subtitle">
@@ -39,9 +42,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="right">
-                            <img src="<?php echo $img['url']; ?>">
-                        </div>
+                        
                     </div>
                 </div>
             </div>

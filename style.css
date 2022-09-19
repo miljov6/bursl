@@ -4445,6 +4445,19 @@ textarea {
 	padding: 80px 60px 150px 60px !important;
 }
 
+.invert_1 .intro {
+	grid-template-columns: 12fr 9fr !important;
+	padding: 10px 0 32px;
+}
+
+.fnt .container {
+	padding: 70px 90px 140px;
+}
+
+.about_us_sect .container {
+	padding: 50px 60px 100px 60px;
+}
+
 .underbox .container-fluid {
 	width: 100%;
 	padding: 0;
@@ -4876,11 +4889,13 @@ textarea {
 	border-bottom: 1px solid #e1e4ec;
 	position: relative;
 	padding: 16px 0;
+	transition: 0.45s;
 }
 
 .featured_blogs .boxes .box:hover {
 	background-color: #f2f4fa;
 	padding: 16px 20px 0 !important;
+	cursor: pointer;
 }
 
 .featured_blogs .boxes .box:hover::before {
@@ -5272,11 +5287,17 @@ textarea {
 	padding: 167px 0 30px;
 }
 
+.aboutus .txt_1 {
+	margin-top: 24px;
+	max-width: 720px;
+	width: 100%;
+}
+
 .aboutus .under_title {
 	display: flex;
 	gap: 156px;
 	place-items: center;
-	max-width: 1300px;
+	max-width: 720px;
 }
 
 @media screen and (max-width: 1120px) {
@@ -9969,7 +9990,7 @@ textarea {
 .book_demo .container {
 	max-width: 1440px;
 	margin: 0 auto;
-	padding: 0 60px 70px 80px;
+	padding: 60px 90px 90px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -22156,12 +22177,16 @@ textarea {
 }
 
 .text_icon_items .boxes .right-box .box h4 {
-	margin: 0 0 16px;
+	margin: 0 0 12px;
 }
 
 .text_icon_items .boxes .right-box .box img {
 	width: 80px;
 	height: 80px;
+}
+
+.text_icon_items .boxes .right-box .box p {
+	margin: 0;
 }
 
 .text_icon_items .boxes .right-box .box .text {
@@ -23087,7 +23112,7 @@ textarea {
 .for_finance_teams_section .container {
 	max-width: 1440px;
 	margin: 0 auto;
-	padding: 80px 60px;
+	padding: 60px 60px;
 }
 
 .for_finance_teams_section .first {
@@ -23203,7 +23228,7 @@ textarea {
 .for_finance_teams_section_r .container {
 	max-width: 1440px;
 	margin: 0 auto;
-	padding: 80px 60px;
+	padding: 60px 60px;
 }
 
 .for_finance_teams_section_r .first {
@@ -23319,7 +23344,7 @@ textarea {
 .for_finance_teams_text_boxes_under .container {
 	max-width: 1440px;
 	margin: 0 auto;
-	padding: 48px 60px 70px 60px;
+	padding: 48px 60px 40px 60px;
 }
 
 .for_finance_teams_text_boxes_under .intro {

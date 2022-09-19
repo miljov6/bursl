@@ -1,12 +1,12 @@
-<?php if (have_rows('text_boxes_under')) : ?>
-    <?php while (have_rows('text_boxes_under')) : the_row();
+<?php if (have_rows('text_invert_boxes_under')) : ?>
+    <?php while (have_rows('text_invert_boxes_under')) : the_row();
 
         // Get sub field values.
         $title = get_sub_field('title');
         $subtitle = get_sub_field('subtitle');
         $text = get_sub_field('text');
     ?>
-        <div class="for_finance_teams_text_boxes_under">
+        <div class="for_finance_teams_text_boxes_under invert_1">
             <div class="container-fluid">
                 <div class="container">
                     <div class="intro">

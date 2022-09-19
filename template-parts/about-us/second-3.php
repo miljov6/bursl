@@ -7,7 +7,7 @@
         $text = get_sub_field('text');
         $img = get_sub_field('image');
     ?>
-        <div class="conctact_us_section_r">
+        <div class="conctact_us_section_r about_us_sect">
             <div class="container-fluid">
                 <div class="container">
                     <div class="boxes">

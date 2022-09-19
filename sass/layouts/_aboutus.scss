@@ -38,12 +38,18 @@
     .title {
       padding: 167px 0 30px;
     }
+
+    .txt_1 {
+      margin-top: 24px;
+      max-width: 720px;
+      width: 100%;
+    }
   
     .under_title {
       display: flex;
       gap: 156px;
       place-items: center;
-      max-width: 1300px;
+      max-width: 720px;
       @media screen and (max-width: 1120px) {
         flex-wrap: wrap;
         gap: 12px;

@@ -95,12 +95,16 @@
 }
 
 .text_icon_items .boxes .right-box .box h4 {
-  margin: 0 0 16px;
+  margin: 0 0 12px;
 }
 
 .text_icon_items .boxes .right-box .box img {
   width: 80px;
   height: 80px;
+}
+
+.text_icon_items .boxes .right-box .box p {
+  margin: 0;
 }
 
 .text_icon_items .boxes .right-box .box .text {

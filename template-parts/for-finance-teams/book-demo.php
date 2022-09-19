@@ -10,7 +10,7 @@
         $btn_text = get_sub_field('btn_text');
         $btn_url = get_sub_field('btn_url');
     ?>
-        <div class="for_finance_teams_demo">
+        <div class="for_finance_teams_demo fnt">
             <div class="container-fluid">
                 <div class="container">
                     <div class="three_boxes">

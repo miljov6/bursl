@@ -28,7 +28,7 @@
                                 $box_title = get_sub_field('box_title');
                                 $box_text = get_sub_field('box_text');
                         ?>
-                                <div class="box">
+                                <div class="box" style="border: 0">
                                     <img src="<?php echo $box_image['url']; ?>">
                                     <h3><?php echo $box_title; ?></h3>
                                     <p><?php echo $box_text; ?></p>

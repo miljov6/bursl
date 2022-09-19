@@ -50,11 +50,17 @@
   padding: 167px 0 30px;
 }
 
+.aboutus .txt_1 {
+  margin-top: 24px;
+  max-width: 720px;
+  width: 100%;
+}
+
 .aboutus .under_title {
   display: flex;
   gap: 156px;
   place-items: center;
-  max-width: 1300px;
+  max-width: 720px;
 }
 
 @media screen and (max-width: 1120px) {

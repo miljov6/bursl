@@ -1,49 +1,49 @@
-.for_legal_teams_section .radius {
+.for_finance_teams_section .radius {
   border-radius: 50px 50px 0 0;
   background: #fff;
 }
 
-.for_legal_teams_section .container-fluid {
+.for_finance_teams_section .container-fluid {
   width: 100%;
   padding: 0;
   margin: 0;
   background: #fff;
 }
 
-.for_legal_teams_section .container {
+.for_finance_teams_section .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 80px 60px;
+  padding: 60px 60px;
 }
 
-.for_legal_teams_section .first {
+.for_finance_teams_section .first {
   padding-top: 160px;
 }
 
-.for_legal_teams_section .intro {
+.for_finance_teams_section .intro {
   display: grid;
   gap: 12px;
   margin-bottom: 12px;
 }
 
-.for_legal_teams_section .intro .title {
+.for_finance_teams_section .intro .title {
   display: grid;
   gap: 16px;
   padding: 0;
 }
 
-.for_legal_teams_section .intro .title h2 {
+.for_finance_teams_section .intro .title h2 {
   margin: 0 0 8px;
   font-weight: 500;
   color: #0a2244;
 }
 
-.for_legal_teams_section .intro .title p {
+.for_finance_teams_section .intro .title p {
   color: #616d82;
   font-weight: 500;
 }
 
-.for_legal_teams_section .intro .subtitle {
+.for_finance_teams_section .intro .subtitle {
   font-family: "General Sans Variable";
   font-style: normal;
   font-weight: 500;
@@ -55,12 +55,12 @@
   color: #828fa5;
 }
 
-.for_legal_teams_section .items ul {
+.for_finance_teams_section .items ul {
   margin: 0;
   padding: 0 20px;
 }
 
-.for_legal_teams_section .items li {
+.for_finance_teams_section .items li {
   margin: 0;
   padding: 12px 0;
   color: #616d82;
@@ -69,17 +69,17 @@
   font-weight: 500;
 }
 
-.for_legal_teams_section .boxes {
+.for_finance_teams_section .boxes {
   display: flex;
   gap: 60px;
   place-items: center;
 }
 
-.for_legal_teams_section .boxes .left {
+.for_finance_teams_section .boxes .left {
   width: 100%;
 }
 
-.for_legal_teams_section .boxes .left .box {
+.for_finance_teams_section .boxes .left .box {
   display: flex;
   border-bottom: 1px solid #e1e4ec;
   padding: 32px 0;
@@ -88,7 +88,7 @@
   place-items: baseline;
 }
 
-.for_legal_teams_section .boxes .left .box span {
+.for_finance_teams_section .boxes .left .box span {
   font-family: "General Sans Variable";
   font-style: normal;
   font-weight: 500;
@@ -97,11 +97,11 @@
   color: #616d82;
 }
 
-.for_legal_teams_section .boxes .left .box .points {
+.for_finance_teams_section .boxes .left .box .points {
   width: 100%;
 }
 
-.for_legal_teams_section .boxes .left .box .points h4 {
+.for_finance_teams_section .boxes .left .box .points h4 {
   font-family: "General Sans Variable";
   font-style: normal;
   font-weight: 500;
@@ -111,11 +111,11 @@
   margin: 0;
 }
 
-.for_legal_teams_section .boxes .left .box .points p {
+.for_finance_teams_section .boxes .left .box .points p {
   margin: 0;
 }
 
-.for_legal_teams_section .boxes .right {
+.for_finance_teams_section .boxes .right {
   width: 100%;
 }
 
