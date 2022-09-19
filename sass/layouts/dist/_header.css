@@ -75,6 +75,7 @@
   display: flex;
   gap: 40px;
   width: 100%;
+  cursor: pointer;
 }
 
 .site-header #search-input {
@@ -248,6 +249,7 @@
 
 .search-btn {
   width: 25px;
+  cursor: pointer;
 }
 
 #header-form {
@@ -287,6 +289,7 @@
   width: 25px;
   position: relative;
   height: 25px;
+  cursor: pointer;
 }
 
 #header-form #close::before {

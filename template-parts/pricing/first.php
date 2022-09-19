@@ -7,20 +7,13 @@
         $text = get_sub_field('text');
         $img = get_sub_field('image');
     ?>
-        <div class="conctact_us_section">
-            <div class="container-fluid radius">
+        <div class="pricing_bottom">
+            <div class="container-fluid">
                 <div class="container first">
                     <div class="boxes">
-                    <div class="left">
-                            <img src="<?php echo $img['url']; ?>">
-                        </div>
+                    
                         <div class="right">
                             <div class="intro">
-                                <?php if (!empty($subtitle)): ?>
-                                <div class="subtitle">
-                                    
-                                </div>
-                                <?php  endif; ?>
                                 <div class="title">
                                     <h2><?php echo $title; ?></h2>
                                     <p><?php echo $text; ?></p>
@@ -41,6 +34,9 @@
                                     ?>
                                 </ul>
                             </div>
+                        </div>
+                        <div class="left">
+                            <img src="<?php echo $img['url']; ?>">
                         </div>
                     </div>
                 </div>

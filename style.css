@@ -3680,6 +3680,7 @@ textarea {
 	display: flex;
 	gap: 40px;
 	width: 100%;
+	cursor: pointer;
 }
 
 .site-header #search-input {
@@ -3857,6 +3858,7 @@ textarea {
 
 .search-btn {
 	width: 25px;
+	cursor: pointer;
 }
 
 #header-form {
@@ -3896,6 +3898,7 @@ textarea {
 	width: 25px;
 	position: relative;
 	height: 25px;
+	cursor: pointer;
 }
 
 #header-form #close::before {
@@ -5286,7 +5289,8 @@ textarea {
 }
 
 .pricing_page {
-	background-image: url("/icons/background.png");
+	background-image: url("./icons/background.png");
+	background-size: cover;
 }
 
 .pricing_page .container-fluid {
@@ -5298,19 +5302,11 @@ textarea {
 .pricing_page .container {
 	max-width: 1440px;
 	margin: 0 auto;
-	padding: 0 60px 41px 60px;
+	padding: 53px 60px 31px 60px;
 }
 
-.pricing_page .contact-head {
-	display: grid;
-	grid-template-columns: 5fr 4fr;
+.pricing_page .title {
 	padding: 167px 0 30px;
-	gap: 110px;
-	align-items: center;
-	place-content: center;
-}
-
-.pricing_page .contact-head .title {
 	display: grid;
 	gap: 24px;
 	height: fit-content;
@@ -5415,6 +5411,11 @@ textarea {
 	padding: 0;
 }
 
+.pricing_plans {
+	background: #fff;
+	border-radius: 50px 50px 0 0;
+}
+
 .pricing_plans .container-fluid {
 	width: 100%;
 	padding: 0;
@@ -5424,12 +5425,21 @@ textarea {
 .pricing_plans .container {
 	max-width: 1440px;
 	margin: 0 auto;
-	padding: 0 60px 41px 60px;
+	padding: 80px 30px 41px 30px;
 }
 
 .pricing_plans .boxes-column {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+}
+
+.pricing_plans .boxes-column .boxes-1 {
+	border-right: 1px solid #e1e4ec;
+	padding: 10px 30px;
+}
+
+.pricing_plans .boxes-column .boxes-2 {
+	border-right: 0;
 }
 
 .pricing_plans .boxes-grid {
@@ -5438,28 +5448,23 @@ textarea {
 }
 
 .pricing_plans h2 {
-	margin: 0 0 24px;
+	margin: 0 0 4px;
 }
 
 .pricing_plans h3 {
 	font-size: 48px;
 	line-height: 65px;
 	color: #0a2244;
-	margin: 0 0 4px;
+	margin: 20px 0 4px;
 }
 
 .pricing_plans h4 {
-	margin: 0;
+	margin: 10px 0 0;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 22px;
 	line-height: 30px;
 	color: #0a2244;
-}
-
-.pricing_plans .boxes-grid {
-	border-left: 1px solid;
-	padding: 0 30px;
 }
 
 .pricing_plans p {
@@ -5471,7 +5476,8 @@ textarea {
 
 .pricing_plans .btns {
 	display: grid;
-	margin: 24px 0 52px;
+	margin: 24px 0 31px;
+	gap: 16px;
 }
 
 .pricing_plans .btn-1 {
@@ -5554,6 +5560,116 @@ textarea {
 	line-height: 22px;
 	margin: 0;
 	padding: 0;
+}
+
+.pricing_bottom .container-fluid {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+}
+
+.pricing_bottom .container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 70px 60px 90px;
+}
+
+.pricing_bottom .intro {
+	display: grid;
+	margin-bottom: 12px;
+}
+
+.pricing_bottom .intro .title {
+	display: grid;
+	gap: 24px;
+	padding: 0;
+}
+
+.pricing_bottom .intro .title h2 {
+	font-weight: 500;
+	color: #0a2244;
+}
+
+.pricing_bottom .intro .title p {
+	color: #616d82;
+	font-weight: 500;
+}
+
+.pricing_bottom .intro .subtitle {
+	font-family: "General Sans Variable";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 20px;
+	display: flex;
+	align-items: flex-end;
+	text-transform: uppercase;
+	color: #828fa5;
+}
+
+.pricing_bottom .items ul {
+	margin: 0;
+	padding: 0 20px;
+}
+
+.pricing_bottom .items li {
+	margin: 0;
+	padding: 12px 0;
+	color: #616d82;
+	font-size: 17px;
+	line-height: 28px;
+	font-weight: 500;
+}
+
+.pricing_bottom .boxes {
+	display: flex;
+	gap: 60px;
+	place-items: center;
+}
+
+.pricing_bottom .boxes .left {
+	width: 100%;
+}
+
+.pricing_bottom .boxes .left .box {
+	display: flex;
+	border-bottom: 1px solid #e1e4ec;
+	padding: 32px 0;
+	gap: 36px;
+	place-items: baseline;
+	place-items: baseline;
+}
+
+.pricing_bottom .boxes .left .box span {
+	font-family: "General Sans Variable";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 28px;
+	color: #616d82;
+}
+
+.pricing_bottom .boxes .left .box .points {
+	width: 100%;
+}
+
+.pricing_bottom .boxes .left .box .points h4 {
+	font-family: "General Sans Variable";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 30px;
+	color: #0a2244;
+	margin: 0;
+}
+
+.pricing_bottom .boxes .left .box .points p {
+	margin: 0;
+}
+
+.pricing_bottom .boxes .right {
+	width: 100%;
 }
 
 .how_works {

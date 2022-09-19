@@ -23,10 +23,6 @@ if (have_rows('hero')) : ?>
                     </div>
                 </div>
                 </div>
-                <div class="contact-form">
-                    <h2>Get started</h2>
-                <?php echo do_shortcode($contact_form); ?>
-                </div>
             </div>
         </div>
         </div>

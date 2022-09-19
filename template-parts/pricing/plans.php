@@ -6,10 +6,10 @@
                 <div class="container">
                     <div class="boxes-grid">
                         <div class="boxes-column">
-                            <div>
+                            <div class="boxes-1">
                                 <h4>Plan</h4>
                             </div>
-                            <div>
+                            <div class="boxes-1">
                                 <?php if (have_rows('plan_1')) : ?>
                                     <?php while (have_rows('plan_1')) : the_row(); ?>
                                         <h2><?php echo get_sub_field('title'); ?></h2>
@@ -17,7 +17,7 @@
                                 endif;
                                 ?>
                             </div>
-                            <div>
+                            <div class="boxes-1">
                                 <?php if (have_rows('plan_2')) : ?>
                                     <?php while (have_rows('plan_2')) : the_row(); ?>
                                         <h2><?php echo get_sub_field('title'); ?></h2>
@@ -25,7 +25,7 @@
                                 endif;
                                 ?>
                             </div>
-                            <div>
+                            <div class="boxes-1 boxes-2">
                                 <?php if (have_rows('plan_3')) : ?>
                                     <?php while (have_rows('plan_3')) : the_row(); ?>
                                         <h2><?php echo get_sub_field('title'); ?></h2>
@@ -35,10 +35,10 @@
                             </div>
                         </div>
                         <div class="boxes-column">
-                            <div>
+                            <div class="boxes-1">
                                 <h4>Description</h4>
                             </div>
-                            <div>
+                            <div class="boxes-1">
                                 <?php if (have_rows('plan_1')) : ?>
                                     <?php while (have_rows('plan_1')) : the_row(); ?>
                                         <p><?php echo get_sub_field('description'); ?></p>
@@ -46,7 +46,7 @@
                                 endif;
                                 ?>
                             </div>
-                            <div>
+                            <div class="boxes-1">
                                 <?php if (have_rows('plan_2')) : ?>
                                     <?php while (have_rows('plan_2')) : the_row(); ?>
                                         <p><?php echo get_sub_field('description'); ?></p>
@@ -54,7 +54,7 @@
                                 endif;
                                 ?>
                             </div>
-                            <div>
+                            <div class="boxes-1 boxes-2">
                                 <?php if (have_rows('plan_3')) : ?>
                                     <?php while (have_rows('plan_3')) : the_row(); ?>
                                         <p><?php echo get_sub_field('description'); ?></p>
@@ -64,10 +64,10 @@
                             </div>
                         </div>
                         <div class="boxes-column">
-                            <div>
-                                <h4>Pricing</h4>
+                            <div class="boxes-1">
+                                <h4 style="margin-top: 30px">Pricing</h4>
                             </div>
-                            <div>
+                            <div class="boxes-1">
                                 <?php if (have_rows('plan_1')) : ?>
                                     <?php while (have_rows('plan_1')) : the_row(); ?>
                                         <h3><?php echo get_sub_field('price'); ?></h3>
@@ -90,7 +90,7 @@
                                 endif;
                                 ?>
                             </div>
-                            <div>
+                            <div class="boxes-1">
                                 <?php if (have_rows('plan_2')) : ?>
                                     <?php while (have_rows('plan_2')) : the_row(); ?>
                                         <h3><?php echo get_sub_field('price'); ?></h3>
@@ -113,7 +113,7 @@
                                 endif;
                                 ?>
                             </div>
-                            <div>
+                            <div class="boxes-1 boxes-2">
                                 <?php if (have_rows('plan_3')) : ?>
                                     <?php while (have_rows('plan_3')) : the_row(); ?>
                                         <h3><?php echo get_sub_field('price'); ?></h3>
@@ -138,10 +138,10 @@
                             </div>
                         </div>
                         <div class="boxes-column">
-                            <div>
+                            <div class="boxes-1">
                                 <h4>Features</h4>
                             </div>
-                            <div>
+                            <div class="boxes-1">
                                 <?php if (have_rows('plan_1')) : ?>
                                     <?php while (have_rows('plan_1')) : the_row(); ?>
                                         <?php if (have_rows('includes')) : ?>
@@ -160,7 +160,7 @@
                                 endif;
                                 ?>
                             </div>
-                            <div>
+                            <div class="boxes-1">
                                 <?php if (have_rows('plan_2')) : ?>
                                     <?php while (have_rows('plan_2')) : the_row(); ?>
                                         <?php if (have_rows('includes')) : ?>
@@ -179,7 +179,7 @@
                                 endif;
                                 ?>
                             </div>
-                            <div>
+                            <div class="boxes-1 boxes-2">
                                 <?php if (have_rows('plan_3')) : ?>
                                     <?php while (have_rows('plan_3')) : the_row(); ?>
                                         <?php if (have_rows('includes')) : ?>
