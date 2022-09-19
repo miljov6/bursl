@@ -279,7 +279,7 @@
 
 .conctact_us_section_r .boxes {
   display: flex;
-  gap: 85px;
+  gap: 60px;
   place-items: center;
 }
 
@@ -396,7 +396,7 @@
 
 .conctact_us_section .boxes {
   display: flex;
-  gap: 85px;
+  gap: 60px;
   place-items: center;
 }
 

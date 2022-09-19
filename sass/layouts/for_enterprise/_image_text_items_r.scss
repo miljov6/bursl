@@ -10,8 +10,8 @@
       margin: 0 auto;
       padding: 80px 60px;
     }
-    .first{
-        padding-top: 160px;
+    .first-enterprise{
+      padding-top: 96px;
     }
     .intro {
       display: grid;
@@ -24,7 +24,7 @@
         padding: 0;
   
         h2 {
-          margin: 0 0 8px;
+          margin: 0;
           font-weight: 500;
           color: #0a2244;
         }
@@ -64,7 +64,7 @@
     }
     .boxes {
       display: flex;
-      gap: 85px;
+      gap: 60px;
       place-items: center;
   
       .right {

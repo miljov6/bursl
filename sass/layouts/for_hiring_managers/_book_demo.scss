@@ -8,7 +8,7 @@
     .container {
       max-width: 1440px;
       margin: 0 auto;
-      padding: 50px 60px 70px 80px;
+      padding: 10px 60px 70px 80px;
     }
     .three_boxes {
       display: flex;
@@ -27,6 +27,7 @@
         margin-bottom: 40px;
         max-width: 50%;
         text-align: center;
+        padding-left: 20px;
   
         .title {
           display: grid;

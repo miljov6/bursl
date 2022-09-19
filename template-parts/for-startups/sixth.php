@@ -7,7 +7,7 @@
         $text = get_sub_field('text');
         $img = get_sub_field('image');
     ?>
-        <div class="for_startups_section_r">
+        <div class="for_startups_section_r fsp6">
             <div class="container-fluid">
                 <div class="container">
                     <div class="boxes">

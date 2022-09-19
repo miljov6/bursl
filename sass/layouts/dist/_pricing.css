@@ -1,0 +1,273 @@
+.pricing_page {
+  background-image: url("/icons/background.png");
+}
+
+.pricing_page .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing_page .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 60px 41px 60px;
+}
+
+.pricing_page .contact-head {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  padding: 167px 0 30px;
+  gap: 110px;
+  align-items: center;
+  place-content: center;
+}
+
+.pricing_page .contact-head .title {
+  display: grid;
+  gap: 24px;
+  height: fit-content;
+}
+
+.pricing_page h1 {
+  color: #0a2244;
+  margin: 0;
+}
+
+.pricing_page p {
+  color: #616d82;
+}
+
+.pricing_page .under_title {
+  display: flex;
+  place-items: center;
+}
+
+.pricing_page p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.pricing_page .btns {
+  display: flex;
+  gap: 8px;
+}
+
+.pricing_page .btns .talk {
+  position: relative;
+  text-align: center;
+  border: 1px solid #0a2244;
+  border-radius: 25px;
+  color: #0a2244;
+  width: 158px;
+  height: fit-content;
+  transition: 0.4s;
+  padding: 13px 10px;
+}
+
+.pricing_page .btns .talk:hover {
+  color: #fff;
+  background: #0a2244;
+  border: 0;
+}
+
+.pricing_page .btns .talk a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.pricing_page .btns .talk span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing_page .btns .try {
+  position: relative;
+  text-align: center;
+  width: 158px;
+  height: fit-content;
+  border-radius: 25px;
+  background: #f76c34;
+  color: #fff;
+  transition: 0.4s;
+  padding: 13px 10px;
+}
+
+.pricing_page .btns .try:hover {
+  color: #f76c34;
+  background: #fff;
+  border: 0;
+}
+
+.pricing_page .btns .try a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.pricing_page .btns .try span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing_plans .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing_plans .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 60px 41px 60px;
+}
+
+.pricing_plans .boxes-column {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.pricing_plans .boxes-grid {
+  display: grid;
+  grid: none;
+}
+
+.pricing_plans h2 {
+  margin: 0 0 24px;
+}
+
+.pricing_plans h3 {
+  font-size: 48px;
+  line-height: 65px;
+  color: #0A2244;
+  margin: 0 0 4px;
+}
+
+.pricing_plans h4 {
+  margin: 10px 0 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #0A2244;
+}
+
+.pricing_plans .boxes-grid {
+  border-left: 1px solid;
+  padding: 0 30px;
+}
+
+.pricing_plans p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  color: #616D82;
+}
+
+.pricing_plans .btns {
+  display: grid;
+  margin: 24px 0 52px;
+  gap: 16px;
+}
+
+.pricing_plans .btn-1 {
+  position: relative;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+  height: fit-content;
+  border-radius: 25px;
+  background: #f76c34;
+  color: #fff;
+  transition: 0.4s;
+  padding: 13px 10px;
+}
+
+.pricing_plans .btn-1:hover {
+  color: #f76c34;
+  background: #fff;
+  border: 1px solid #f76c34;
+}
+
+.pricing_plans .btn-1 a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.pricing_plans .btn-1 span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing_plans .includes {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.pricing_plans .btn-2 {
+  position: relative;
+  text-align: center;
+  border: 1px solid #0a2244;
+  border-radius: 25px;
+  color: #0a2244;
+  max-width: 300px;
+  width: 100%;
+  height: fit-content;
+  transition: 0.4s;
+  padding: 13px 10px;
+}
+
+.pricing_plans .btn-2:hover {
+  color: #fff;
+  background: #0a2244;
+  border: 0;
+}
+
+.pricing_plans .btn-2 a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.pricing_plans .btn-2 span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=_pricing.css.map */

@@ -1,5 +1,5 @@
-<?php if (have_rows('fourth')) : ?>
-    <?php while (have_rows('fourth')) : the_row();
+<?php if (have_rows('first')) : ?>
+    <?php while (have_rows('first')) : the_row();
 
         // Get sub field values.
         $title = get_sub_field('title');
@@ -7,11 +7,11 @@
         $text = get_sub_field('text');
         $img = get_sub_field('image');
     ?>
-        <div class="for_startups_section_r fsp4">
-            <div class="container-fluid">
-                <div class="container">
+        <div class="conctact_us_section">
+            <div class="container-fluid radius">
+                <div class="container first">
                     <div class="boxes">
-                        <div class="left">
+                    <div class="left">
                             <img src="<?php echo $img['url']; ?>">
                         </div>
                         <div class="right">

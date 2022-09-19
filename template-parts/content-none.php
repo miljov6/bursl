@@ -13,6 +13,7 @@
 	<header class="page-header alignwide">
 	<div class="container-fluid">
 			<div class="container">
+				<p>0 search results for:</p>
 		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', '_s' ); ?></h1>
 		</div>
 		</div>
@@ -40,16 +41,14 @@
 		elseif ( is_search() ) :
 			?>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', '_s' ); ?></p>
+			<h3><?php esc_html_e( "Sorry, we couldn't find any results for that query.", '_s' ); ?></h3>
 			<?php
-			get_search_form();
 
 		else :
 			?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', '_s' ); ?></p>
+			<h3><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', '_s' ); ?></h3>
 			<?php
-			get_search_form();
 
 		endif;
 		?>

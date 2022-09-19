@@ -19,15 +19,11 @@ get_header();
 
 
 				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e('Nothing Found.', '_s'); ?></h1>
+					<h1 class="error"><?php esc_html_e('404', '_s'); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php esc_html_e('It looks like nothing was found at this location. Maybe try one of the links below or a search?', '_s'); ?></p>
-
-					<?php
-					get_search_form();
-					?>
+					<p><?php esc_html_e('Become a Bursl partner to grow your client base and tap into a broad network of market leaders across the globe.', '_s'); ?></p>
 				</div>
 			</div>
 		</div>

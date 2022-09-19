@@ -11,8 +11,8 @@
   padding: 80px 60px;
 }
 
-.for_enterprise_section_r .first {
-  padding-top: 160px;
+.for_enterprise_section_r .first-enterprise {
+  padding-top: 96px;
 }
 
 .for_enterprise_section_r .intro {
@@ -28,7 +28,7 @@
 }
 
 .for_enterprise_section_r .intro .title h2 {
-  margin: 0 0 8px;
+  margin: 0;
   font-weight: 500;
   color: #0a2244;
 }
@@ -67,7 +67,7 @@
 
 .for_enterprise_section_r .boxes {
   display: flex;
-  gap: 85px;
+  gap: 60px;
   place-items: center;
 }
 

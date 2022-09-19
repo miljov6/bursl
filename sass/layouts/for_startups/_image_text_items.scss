@@ -1,5 +1,5 @@
 .for_startups_section {
-  .radius{
+  .radius {
     border-radius: 50px 50px 0 0;
     background: #fff;
   }
@@ -14,7 +14,7 @@
     margin: 0 auto;
     padding: 80px 60px;
   }
-  .first{
+  .first {
     padding-top: 160px;
   }
   .intro {
@@ -28,7 +28,7 @@
       padding: 0;
 
       h2 {
-        margin: 0 0 8px;
+        margin: 0;
         font-weight: 500;
         color: #0a2244;
       }
@@ -67,7 +67,7 @@
   }
   .boxes {
     display: flex;
-    gap: 85px;
+    gap: 60px;
     place-items: center;
 
     .left {
@@ -107,5 +107,48 @@
     .right {
       width: 100%;
     }
+  }
+}
+
+.first-for-startups {
+  .intro {
+    display: grid;
+    margin-bottom: 12px;
+    .title {
+      display: grid;
+      gap: 24px;
+      padding: 0;
+
+      h2 {
+        margin: 0;
+        font-weight: 500;
+        color: #0a2244;
+      }
+
+      p {
+        color: #616d82;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.fsp {
+  .container {
+    padding: 60px 60px 80px;
+  }
+}
+.fsp4 {
+  .container {
+    padding: 0px 60px 100px!important;
+  }
+}
+
+.fsp6{
+  .container{
+    padding: 45px 60px 100px;
+  }
+  .boxes{
+    place-items: flex-start;
   }
 }

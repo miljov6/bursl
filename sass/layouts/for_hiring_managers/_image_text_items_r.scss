@@ -24,7 +24,7 @@
         padding: 0;
   
         h2 {
-          margin: 0 0 8px;
+          margin: 0;
           font-weight: 500;
           color: #0a2244;
         }
@@ -63,7 +63,7 @@ font-weight: 500;
     }
     .boxes {
       display: flex;
-      gap: 85px;
+      gap: 60px;
       place-items: center;
   
       .right {
@@ -106,3 +106,11 @@ font-weight: 500;
     }
   }
   
+  .enterprise_fourth {
+    .container{
+      padding-bottom: 140px;
+    }
+    .title{
+      gap: 16px;
+    }
+  }

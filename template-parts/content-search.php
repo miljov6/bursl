@@ -11,25 +11,15 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header entry-content">
-	<div class="entry-summary">
-		<div class="container-fluid">
-		<div class="container">
-		<?php the_title(sprintf('<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h2>'); ?>
-
-		<?php if ('post' === get_post_type()) : ?>
-			<div class="entry-meta">
-				<?php
-				_s_posted_on();
-				?>
-			</div>
-			<div>
-			<?php _s_post_thumbnail(); ?>
-				<?php the_excerpt(); ?><!-- .entry-meta -->
-			</div>
-			</div>
+	<div class="post-box">
+		<div class="search-result-img">
+			<?php _s_post_thumbnail();?>
 		</div>
-		<?php endif; ?>
-	</header><!-- .entry-header -->
+		<div class="post-rest">
+			<span id="date-read"><?php echo get_the_date('F j Y'); ?> </span>
+			<h4><a href="<?php echo get_permalink(); ?>"><?php echo the_title(); ?></a></h4>
+			<p><?php  echo wp_trim_words( get_the_content(), 20, '...' ); ?></p>
+		</div>
+	</div>
 
 </article><!-- #post-<?php the_ID(); ?> -->

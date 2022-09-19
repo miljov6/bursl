@@ -9,7 +9,7 @@
     ?>
         <div class="for_enterprise_section">
             <div class="container-fluid radius">
-                <div class="container first">
+                <div class="container first-enterprise">
                     <div class="boxes">
                         <div class="left">
                             <div class="intro">

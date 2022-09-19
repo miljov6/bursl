@@ -7,9 +7,9 @@
         $text = get_sub_field('text');
         $img = get_sub_field('image');
     ?>
-        <div class="for_startups_section">
+        <div class="for_startups_section fsp">
             <div class="container-fluid radius">
-                <div class="container first">
+                <div class="container first-for-startups">
                     <div class="boxes">
                         <div class="left">
                             <div class="intro">
