@@ -1,0 +1,110 @@
+.local_compliance .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.local_compliance .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 48px 60px 0 60px;
+}
+
+@media screen and (max-width: 1100px) {
+  .local_compliance .container {
+    max-width: 1100px;
+    padding: 32px 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .local_compliance .container {
+    max-width: 720px;
+    padding: 32px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .local_compliance .container {
+    max-width: 375px;
+    padding: 32px 16px;
+  }
+}
+
+.local_compliance .intro {
+  display: grid;
+  grid-template-columns: 10fr 17fr;
+  place-items: self-start;
+  padding: 30px 0 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .local_compliance .intro {
+    grid-template-columns: 1fr;
+  }
+}
+
+.local_compliance .intro .title {
+  padding: 0px;
+  max-width: 720px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .local_compliance .intro .title {
+    padding: 0;
+  }
+}
+
+.local_compliance .intro .title h2 {
+  margin: 0 0 16px;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.local_compliance .intro .subtitle {
+  padding: 10px 0;
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.local_compliance .boxes {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .local_compliance .boxes {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+.local_compliance .boxes .box {
+  border: 1px solid #e1e4ec;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  max-width: 420px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .local_compliance .boxes .box {
+    border: 0;
+    border-bottom: 1px solid #e1e4ec;
+    border-radius: 0;
+    padding: 0 0 32px;
+  }
+}
+
+/*# sourceMappingURL=_local_compliance.css.map */

@@ -1,0 +1,88 @@
+.expenses {
+  background: #fff;
+}
+
+.expenses .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 26px 60px 60px 60px;
+}
+
+@media screen and (max-width: 1100px) {
+  .expenses .container {
+    max-width: 1100px !important;
+    padding: 32px 16px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .expenses .container {
+    max-width: 720px !important;
+    padding: 32px 16px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .expenses .container {
+    max-width: 375px;
+    padding: 32px 16px;
+  }
+}
+
+.expenses .two_boxes {
+  display: flex;
+  gap: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .expenses .two_boxes {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+.expenses .two_boxes .intro {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 40px;
+  max-width: 600px;
+  place-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .expenses .two_boxes .intro {
+    order: 2;
+    max-width: 100% !important;
+  }
+}
+
+.expenses .two_boxes .intro .title {
+  display: grid;
+  gap: 24px;
+  padding: 0;
+}
+
+.expenses .two_boxes .intro .title h2 {
+  margin: 0 0 4px;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.expenses .two_boxes .intro .title .hwp {
+  max-width: 540px;
+  width: 100%;
+  color: #616d82;
+}
+
+@media screen and (max-width: 768px) {
+  .expenses .two_boxes .img {
+    order: 1;
+  }
+}
+
+.radius-0 {
+  border-radius: 0;
+}
+
+/*# sourceMappingURL=_expenses.css.map */

@@ -1,0 +1,59 @@
+.for_finance_teams_text_boxes_under .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.for_finance_teams_text_boxes_under .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 48px 60px 70px 60px;
+}
+
+.for_finance_teams_text_boxes_under .intro {
+  display: grid;
+  grid-template-columns: 10fr 17fr;
+  place-items: self-start;
+  padding: 40px 0 48px;
+}
+
+.for_finance_teams_text_boxes_under .intro .title {
+  padding: 0px;
+}
+
+.for_finance_teams_text_boxes_under .intro .title h2 {
+  margin: 0 0 16px;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.for_finance_teams_text_boxes_under .intro .subtitle {
+  padding: 10px 0;
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.for_finance_teams_text_boxes_under .boxes {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+.for_finance_teams_text_boxes_under .boxes .box {
+  border: 1px solid #e1e4ec;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  max-width: 420px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=_text_boxes_under.css.map */

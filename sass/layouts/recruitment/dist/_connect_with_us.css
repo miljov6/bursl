@@ -1,0 +1,109 @@
+.connect_with_us .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.connect_with_us .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 48px 60px 70px 60px;
+}
+
+@media screen and (max-width: 1100px) {
+  .connect_with_us .container {
+    max-width: 1100px;
+    padding: 32px 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .connect_with_us .container {
+    max-width: 720px;
+    padding: 32px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .connect_with_us .container {
+    max-width: 375px;
+    padding: 32px 16px;
+  }
+}
+
+.connect_with_us .intro {
+  display: grid;
+  grid-template-columns: 10fr 17fr;
+  place-items: self-start;
+  padding: 40px 0 76px;
+}
+
+@media screen and (max-width: 768px) {
+  .connect_with_us .intro {
+    grid-template-columns: 1fr;
+    padding: 0 0 32px;
+  }
+}
+
+.connect_with_us .intro .title {
+  padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .connect_with_us .intro .title {
+    padding: 0;
+  }
+}
+
+.connect_with_us .intro .title h2 {
+  margin: 0 0 16px;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.connect_with_us .intro .subtitle {
+  padding: 10px 0;
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.connect_with_us .boxes {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .connect_with_us .boxes {
+    flex-direction: column;
+    gap: 16px;
+    place-items: baseline;
+  }
+}
+
+.connect_with_us .boxes .box {
+  border: 1px solid #e1e4ec;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .connect_with_us .boxes .box {
+    border: 0;
+    border-bottom: 1px solid #e1e4ec;
+    border-radius: 0;
+    padding: 0 0 32px;
+  }
+}
+
+/*# sourceMappingURL=_connect_with_us.css.map */

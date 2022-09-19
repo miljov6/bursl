@@ -1,0 +1,99 @@
+.partner_marketplace .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.partner_marketplace .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 78px 60px 70px 60px;
+}
+
+.partner_marketplace .intro {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.partner_marketplace .intro .title {
+  display: grid;
+  gap: 24px;
+  padding: 0;
+}
+
+.partner_marketplace .intro .title h2 {
+  margin: 0;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.partner_marketplace .intro .title p {
+  color: #616d82;
+  font-weight: 500;
+}
+
+.partner_marketplace .intro .subtitle {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.partner_marketplace .boxes {
+  display: flex;
+  gap: 60px;
+  place-items: center;
+}
+
+.partner_marketplace .boxes .left {
+  width: 100%;
+}
+
+.partner_marketplace .boxes .left .box {
+  display: flex;
+  border-bottom: 1px solid #e1e4ec;
+  padding: 32px 0;
+  gap: 36px;
+  place-items: baseline;
+  place-items: baseline;
+}
+
+.partner_marketplace .boxes .left .box span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  color: #616d82;
+}
+
+.partner_marketplace .boxes .left .box .points {
+  width: 100%;
+}
+
+.partner_marketplace .boxes .left .box .points h4 {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #0a2244;
+  margin: 0;
+}
+
+.partner_marketplace .boxes .left .box .points p {
+  margin: 0;
+}
+
+.partner_marketplace .boxes .right {
+  width: 100%;
+}
+
+/*# sourceMappingURL=_partner_marketplace.css.map */

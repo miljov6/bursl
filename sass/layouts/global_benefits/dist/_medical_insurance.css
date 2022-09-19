@@ -1,0 +1,110 @@
+.medical_insurance .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.medical_insurance .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 78px 60px 10px 60x;
+}
+
+.medical_insurance .intro {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.medical_insurance .intro .title {
+  display: grid;
+  gap: 16px;
+  padding: 0;
+}
+
+.medical_insurance .intro .title h2 {
+  margin: 0;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.medical_insurance .intro .title p {
+  color: #616d82;
+  font-weight: 500;
+}
+
+.medical_insurance .intro .title ul {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.medical_insurance .intro .title li {
+  margin: 0;
+  padding: 12px 0;
+  color: #616D82;
+}
+
+.medical_insurance .intro .subtitle {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.medical_insurance .boxes {
+  display: flex;
+  gap: 60px;
+  place-items: center;
+}
+
+.medical_insurance .boxes .left {
+  width: 100%;
+}
+
+.medical_insurance .boxes .left .box {
+  display: flex;
+  border-bottom: 1px solid #e1e4ec;
+  padding: 32px 0;
+  gap: 36px;
+  place-items: baseline;
+  place-items: baseline;
+}
+
+.medical_insurance .boxes .left .box span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  color: #616d82;
+}
+
+.medical_insurance .boxes .left .box .points {
+  width: 100%;
+}
+
+.medical_insurance .boxes .left .box .points h4 {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #0a2244;
+  margin: 0;
+}
+
+.medical_insurance .boxes .left .box .points p {
+  margin: 0;
+}
+
+.medical_insurance .boxes .right {
+  width: 100%;
+}
+
+/*# sourceMappingURL=_medical_insurance.css.map */

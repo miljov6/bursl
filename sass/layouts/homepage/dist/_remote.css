@@ -1,0 +1,215 @@
+.remote_hiring {
+  background: #fff;
+}
+
+.remote_hiring .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.remote_hiring .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 63px 60px 70px 60px;
+}
+
+@media screen and (max-width: 480px) {
+  .remote_hiring .container {
+    max-width: 375px;
+    padding: 70px 16px 35px;
+  }
+}
+
+.remote_hiring h4 {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #0a2244;
+}
+
+.remote_hiring .intro {
+  display: grid;
+  grid-template-columns: 10fr 17fr;
+  place-items: self-start;
+  padding: 40px 0 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .remote_hiring .intro {
+    padding: 0 0 24px;
+    gap: 12px;
+    grid-template-columns: auto;
+  }
+}
+
+.remote_hiring .intro .title {
+  padding: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .remote_hiring .intro .title {
+    padding: 0;
+  }
+}
+
+.remote_hiring .intro .title h2 {
+  margin: 0 0 16px;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.remote_hiring .intro .subtitle {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.remote_hiring .boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+
+@media screen and (max-width: 480px) {
+  .remote_hiring .boxes {
+    grid-template-columns: auto;
+  }
+}
+
+.remote_hiring .boxes .box {
+  text-align: left;
+  max-width: 600px;
+  width: 100%;
+  border-bottom: 1px solid #e1e4ec;
+}
+
+.remote_hiring .boxes .box h4 {
+  margin: 16px 0;
+  font-weight: 500;
+}
+
+.remote_hiring .boxes .box p {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  color: #616d82;
+}
+
+.remote_hiring .boxes .box a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #0a2244;
+}
+
+.remote_hiring .boxes .left-box {
+  padding: 32px 32px 48px;
+  background: #ffffff;
+  border: 1px solid #e1e4ec;
+  border-radius: 12px;
+}
+
+.remote_hiring .boxes .left-box h4 {
+  margin: 32px 0 16px;
+  font-weight: 500;
+}
+
+.remote_hiring .boxes .left-box p {
+  margin-bottom: 24px;
+}
+
+.remote_hiring .boxes .left-box .btn {
+  position: relative;
+  text-align: center;
+  border: 1px solid #0a2244;
+  border-radius: 25px;
+  color: #0a2244;
+  max-width: 224px;
+  width: 100%;
+  height: fit-content;
+  transition: 0.4s;
+  padding: 15px 10px;
+}
+
+.remote_hiring .boxes .left-box .btn:hover {
+  background: #0a2244;
+  border: 0;
+  color: #fff;
+}
+
+.remote_hiring .boxes .left-box .btn span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.remote_hiring .boxes .left-box .btn a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.remote_hiring .boxes .right-box p {
+  margin-bottom: 24px;
+}
+
+.remote_hiring .boxes .right-box .btn {
+  position: relative;
+  text-align: center;
+  border: 1px solid #0a2244;
+  border-radius: 25px;
+  color: #0a2244;
+  max-width: 158px;
+  width: 100%;
+  height: fit-content;
+  transition: 0.4s;
+  margin-top: 20px;
+  padding: 15px 10px;
+}
+
+.remote_hiring .boxes .right-box .btn:hover {
+  background: #0a2244;
+  border: 0;
+  color: #fff;
+}
+
+.remote_hiring .boxes .right-box .btn span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.remote_hiring .boxes .right-box .btn a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=_remote.css.map */

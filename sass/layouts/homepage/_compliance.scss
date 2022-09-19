@@ -1,0 +1,97 @@
+.automated_compliance {
+  background: #0a2244;
+  color: #fff;
+
+  .container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 48px 60px 70px 60px;
+    @media screen and (max-width: 480px) {
+      max-width: 375px;
+      padding: 60px 16px;
+    }
+  }
+
+  .intro {
+    display: grid;
+    grid-template-columns: 10fr 17fr;
+    place-items: self-start;
+    padding: 56px 0 48px;
+    @media screen and (max-width: 480px) {
+      padding: 0 0 16px;
+      gap: 12px;
+      grid-template-columns: auto;
+    }
+
+    .title {
+      padding: 0px;
+      @media screen and (max-width: 480px) {
+        padding: 0 0 16px;
+      }
+
+      h2 {
+        margin: 0 0 32px;
+        font-weight: 500;
+        color: #fff;
+        @media screen and (max-width: 480px) {
+          margin: 0;
+        }
+      }
+
+      p {
+        font-weight: 500;
+        color: #fff;
+        opacity: 0.8;
+      }
+    }
+
+    .subtitle {
+      font-family: "General Sans Variable";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+      display: flex;
+      align-items: flex-end;
+      text-transform: uppercase;
+      color: #828fa5;
+      @media screen and (max-width: 480px) {
+        margin: 0;
+      }
+    }
+  }
+
+  .boxes {
+    display: flex;
+    gap: 30px;
+    @media screen and (max-width: 480px) {
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+
+    .box {
+      display: grid;
+      gap: 40px;
+      color: #fff;
+      max-width: 420px;
+      width: 100%;
+      @media screen and (max-width: 480px) {
+        gap: 16px;
+      }
+
+      h3 {
+        margin: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

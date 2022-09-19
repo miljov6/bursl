@@ -1,0 +1,99 @@
+.business_admin_automation .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.business_admin_automation .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 78px 60px 70px 60px;
+}
+
+.business_admin_automation .intro {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.business_admin_automation .intro .title {
+  display: grid;
+  gap: 24px;
+  padding: 0;
+}
+
+.business_admin_automation .intro .title h2 {
+  margin: 0;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.business_admin_automation .intro .title p {
+  color: #616d82;
+  font-weight: 500;
+}
+
+.business_admin_automation .intro .subtitle {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.business_admin_automation .boxes {
+  display: flex;
+  gap: 60px;
+  place-items: center;
+}
+
+.business_admin_automation .boxes .left {
+  width: 100%;
+}
+
+.business_admin_automation .boxes .left .box {
+  display: flex;
+  border-bottom: 1px solid #e1e4ec;
+  padding: 32px 0;
+  gap: 36px;
+  place-items: baseline;
+  place-items: baseline;
+}
+
+.business_admin_automation .boxes .left .box span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  color: #616d82;
+}
+
+.business_admin_automation .boxes .left .box .points {
+  width: 100%;
+}
+
+.business_admin_automation .boxes .left .box .points h4 {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #0a2244;
+  margin: 0;
+}
+
+.business_admin_automation .boxes .left .box .points p {
+  margin: 0;
+}
+
+.business_admin_automation .boxes .right {
+  width: 100%;
+}
+
+/*# sourceMappingURL=_simplifying_administration.css.map */

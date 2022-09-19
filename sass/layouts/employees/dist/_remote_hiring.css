@@ -1,0 +1,93 @@
+.employee_remote_hiring {
+  background: #fff;
+}
+
+.employee_remote_hiring .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.employee_remote_hiring .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 60px 70px 60px;
+}
+
+@media screen and (max-width: 1100px) {
+  .employee_remote_hiring .container {
+    max-width: 1100px !important;
+    padding: 32px 16px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .employee_remote_hiring .container {
+    max-width: 720px !important;
+    padding: 32px 16px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .employee_remote_hiring .container {
+    max-width: 375px;
+    padding: 32px 16px;
+  }
+}
+
+.employee_remote_hiring .two_boxes {
+  display: flex;
+  gap: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .employee_remote_hiring .two_boxes {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+.employee_remote_hiring .two_boxes .intro {
+  display: grid;
+  margin-bottom: 40px;
+  max-width: 600px;
+  place-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .employee_remote_hiring .two_boxes .intro {
+    order: 2;
+    max-width: 100% !important;
+  }
+}
+
+.employee_remote_hiring .two_boxes .intro .title {
+  display: grid;
+  gap: 24px;
+  padding: 0;
+}
+
+.employee_remote_hiring .two_boxes .intro .title h2 {
+  margin: 0;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.employee_remote_hiring .two_boxes .intro .title .hwp {
+  max-width: 540px;
+  width: 100%;
+  color: #616d82;
+}
+
+@media screen and (max-width: 768px) {
+  .employee_remote_hiring .two_boxes .img {
+    order: 1;
+  }
+}
+
+.radius-0 {
+  border-radius: 0;
+}
+
+/*# sourceMappingURL=_remote_hiring.css.map */

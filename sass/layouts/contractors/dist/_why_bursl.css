@@ -1,0 +1,120 @@
+.why_bursl {
+  background: #fff;
+}
+
+.why_bursl .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.why_bursl .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 60px 70px 60px;
+}
+
+.why_bursl h4 {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: #0a2244;
+}
+
+.why_bursl .intro {
+  display: block;
+}
+
+.why_bursl .intro .subtitle {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+  padding: 0 0 12px;
+}
+
+.why_bursl .boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 120px;
+}
+
+.why_bursl .boxes h4 {
+  margin: 16px 0;
+  font-weight: 500;
+}
+
+.why_bursl .boxes p {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-size: 17px;
+  line-height: 28px;
+  color: #616d82;
+}
+
+.why_bursl .boxes a {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 30px;
+  color: #0a2244;
+}
+
+.why_bursl .boxes .left-box .title {
+  padding: 0;
+}
+
+.why_bursl .boxes .left-box .title h2 {
+  margin: 0 0 16px;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.why_bursl .boxes .left-box p {
+  margin: 0;
+}
+
+.why_bursl .boxes .right-box {
+  display: grid;
+  gap: 8px;
+}
+
+.why_bursl .boxes .right-box .box {
+  display: flex;
+  gap: 40px;
+  padding: 16px 0;
+  border-bottom: 1px solid #e1e4ec;
+  place-items: center;
+  width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .why_bursl .boxes .right-box .box {
+    flex-direction: column !important;
+    gap: 16px !important;
+    place-items: baseline !important;
+    padding: 24px 0 !important;
+    width: 100% !important;
+  }
+}
+
+.why_bursl .boxes .right-box .box h4 {
+  margin: 0 0 16px;
+}
+
+.why_bursl .boxes .right-box .box img {
+  width: 80px;
+  height: 80px;
+}
+
+.why_bursl .boxes .right-box .box .text {
+  max-width: 480px;
+}
+
+/*# sourceMappingURL=_why_bursl.css.map */

@@ -1,0 +1,68 @@
+.underbox {
+  .container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 48px 60px 72px 60px;
+  }
+  .under_boxes {
+    width: 100%;
+    padding: 99px 131px;
+    margin: auto 0;
+    text-align: center;
+    background: url('./icons/background.png');
+    background-size: cover;
+    border-radius: 25px;
+
+    h2 {
+      margin: 0 0 32px;
+      font-weight: 500;
+    }
+
+    p {
+      margin: 0 0 32px;
+    }
+
+    .btn {
+      position: relative;
+      text-align: center;
+      border-radius: 25px;
+      background: #F76C34;
+      color: #fff;
+      width: 158px;
+      height: fit-content;
+      transition: 0.4s;
+      padding: 13px 10px;
+      margin: auto;
+      &:hover {
+        background: #fff;
+        border: 1px solid #F76C34;
+        color: #F76C34;
+      }
+
+      span {
+        font-family: "General Sans Variable";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0;
+        padding: 0;
+      }
+
+      a {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
+      }
+    }
+  }
+}

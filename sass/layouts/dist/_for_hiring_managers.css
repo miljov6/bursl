@@ -1,0 +1,124 @@
+.for_hiring_managers_page {
+  background: #f3f2fa;
+  background-image: url("./icons/background.png");
+  background-size: cover;
+}
+
+.for_hiring_managers_page .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.for_hiring_managers_page .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 120px 41px 60px;
+}
+
+.for_hiring_managers_page h1 {
+  color: #0a2244;
+  margin: 0;
+}
+
+.for_hiring_managers_page p {
+  color: #616d82;
+}
+
+.for_hiring_managers_page .title {
+  padding: 292px 0 30px;
+}
+
+.for_hiring_managers_page .under_title {
+  display: flex;
+  gap: 156px;
+  place-items: center;
+  max-width: 1300px;
+}
+
+.for_hiring_managers_page p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.for_hiring_managers_page .btns {
+  display: flex;
+  gap: 8px;
+}
+
+.for_hiring_managers_page .btns .talk {
+  position: relative;
+  text-align: center;
+  border: 1px solid #0a2244;
+  border-radius: 25px;
+  color: #0a2244;
+  width: 158px;
+  height: fit-content;
+  transition: 0.4s;
+  padding: 13px 10px;
+}
+
+.for_hiring_managers_page .btns .talk:hover {
+  color: #fff;
+  background: #0a2244;
+  border: 0;
+}
+
+.for_hiring_managers_page .btns .talk a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.for_hiring_managers_page .btns .talk span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.for_hiring_managers_page .btns .try {
+  position: relative;
+  text-align: center;
+  width: 158px;
+  height: fit-content;
+  border-radius: 25px;
+  background: #f76c34;
+  color: #fff;
+  transition: 0.4s;
+  padding: 13px 10px;
+}
+
+.for_hiring_managers_page .btns .try:hover {
+  color: #f76c34;
+  background: #fff;
+  border: 1px solid #f76c34;
+}
+
+.for_hiring_managers_page .btns .try a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.for_hiring_managers_page .btns .try span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=_for_hiring_managers.css.map */

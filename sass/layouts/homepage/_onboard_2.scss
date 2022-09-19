@@ -1,0 +1,103 @@
+.onboard_2 {
+    background: #0a2244;
+  
+    .container-fluid {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      background: #fff;
+      border-radius: 50px 50px 0 0;
+    }
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 40px 60px 12px 60px;
+      @media screen and (max-width: 480px) {
+        max-width: 375px;
+        padding: 56px 16px;
+      }
+    }
+  
+    .intro {
+      display: grid;
+      grid-template-columns: 10fr 17fr;
+      place-items: self-start;
+      padding: 40px 0 56px;
+      @media screen and (max-width: 480px) {
+        padding: 0 0 24px;
+        gap: 12px;
+        grid-template-columns: auto;
+      }
+  
+      .title {
+        padding: 0px;
+        display: grid;
+        gap: 24px;
+        @media screen and (max-width: 480px) {
+          padding: 0;
+        }
+  
+        h2 {
+          margin: 0;
+          font-weight: 500;
+          color: #0a2244;
+          @media screen and (max-width: 480px) {
+            margin-bottom: 4px;
+          }
+        }
+      }
+  
+      .subtitle {
+        font-family: "General Sans Variable";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        align-items: flex-end;
+        text-transform: uppercase;
+        color: #828fa5;
+        @media screen and (max-width: 480px) {
+          margin: 0;
+        }
+      }
+    }
+  
+    .boxes {
+      display: flex;
+      gap: 60px;
+      place-content: center;
+      padding: 61px 60px 66px;
+      background: url('./icons/box-bg.png');
+      background-size: cover;
+      border-radius: 12px;
+      @media screen and (max-width: 480px) {
+        margin-bottom: 4px;
+        flex-wrap: wrap;
+        background: none;
+        padding: 0;
+        gap: 32px;
+      }
+  
+      .box {
+        text-align: center;
+        max-width: 360px;
+        width: 100%;
+        @media screen and (max-width: 480px) {
+          max-width: 327;
+        }
+        p {
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 30px;
+          text-align: center;
+          color: #0A2244;
+          margin: 20px 0 0;
+          @media screen and (max-width: 480px) {
+            margin: 16px 0 0;
+          }
+        }
+      }
+    }
+  }
+  

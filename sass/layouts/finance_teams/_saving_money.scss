@@ -1,0 +1,134 @@
+.saving_money {
+  background: #fff;
+
+  .container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 60px 70px 60px;
+    @media screen and (max-width: 1100px) {
+      max-width: 1100px !important;
+      padding: 32px 16px !important;
+    }
+    @media screen and (max-width: 768px) {
+      max-width: 720px !important;
+      padding: 32px 16px !important;
+    }
+    @media screen and (max-width: 480px) {
+      max-width: 375px;
+      padding: 32px 16px;
+    }
+  }
+
+  h4 {
+    font-family: "General Sans Variable";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: #0a2244;
+  }
+
+  .intro {
+    display: block;
+    padding: 0 0 12px;
+
+    .subtitle {
+      font-family: "General Sans Variable";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+      display: flex;
+      align-items: flex-end;
+      text-transform: uppercase;
+      color: #828fa5;
+    }
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 120px;
+    @media screen and (max-width: 768px) {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 24px;
+    }
+
+    h4 {
+      margin: 16px 0;
+      font-weight: 500;
+    }
+
+    p {
+      font-family: "General Sans Variable";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 28px;
+      color: #616d82;
+    }
+
+    a {
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 30px;
+      color: #0a2244;
+    }
+
+    .left-box {
+      .title {
+        padding: 0;
+        h2 {
+          margin: 0 0 16px;
+          font-weight: 500;
+          color: #0a2244;
+        }
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .right-box {
+      padding-right: 60px;
+      .box {
+        display: flex;
+        gap: 40px;
+        padding: 19px 0 35px;
+        border-bottom: 1px solid #e1e4ec;
+        place-items: center;
+        width: 100%;
+        @media screen and (max-width: 768px) {
+          flex-direction: column;
+          gap: 16px;
+          place-items: baseline;
+          padding: 24px 0;
+        }
+        h4 {
+          margin: 0 0 16px;
+          @media screen and (max-width: 768px) {
+            margin: 0;
+          }
+        }
+        img {
+          width: 80px;
+          height: 80px;
+        }
+        .text {
+          max-width: 480px;
+          @media screen and (max-width: 480px) {
+            max-width: 350px;
+          }
+        }
+      }
+    }
+  }
+}

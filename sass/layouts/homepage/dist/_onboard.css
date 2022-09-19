@@ -1,0 +1,104 @@
+.onboard {
+  background: #fff;
+}
+
+.onboard .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.onboard .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2px 60px 80px 60px;
+}
+
+.onboard .fade {
+  transition: opacity 0.7s ease-in;
+}
+
+.onboard .fadeOut {
+  opacity: 0;
+}
+
+.onboard .fadeIn {
+  opacity: 1;
+}
+
+.onboard .intro {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  place-items: self-start;
+  padding: 40px 0 52px;
+}
+
+.onboard .intro .title {
+  padding: 0;
+}
+
+.onboard .intro .title h2 {
+  margin: 12px 0;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.onboard .intro .title p {
+  margin: 12px 0;
+  color: #616d82;
+  font-weight: 500;
+}
+
+.onboard .intro .subtitle {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.onboard .boxes {
+  display: grid;
+  gap: 72px;
+}
+
+.onboard .boxes .box {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 60px;
+  place-items: initial;
+}
+
+.onboard .boxes .box h3 {
+  font-size: 48px;
+  line-height: 65px;
+  color: #0a2244;
+  font-weight: 400;
+  margin: 0;
+}
+
+.onboard .boxes .box .box-left {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+.onboard .boxes .box .box-left img {
+  border-radius: 12px;
+}
+
+.onboard .boxes .box .box-right {
+  align-self: center;
+}
+
+.onboard .boxes .box .box-right .box-new {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=_onboard.css.map */

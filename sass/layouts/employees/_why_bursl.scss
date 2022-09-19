@@ -1,0 +1,130 @@
+.why_bursl {
+  background: #fff;
+
+  .container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 90px 60px 70px 60px;
+    @media screen and (max-width: 1100px) {
+      max-width: 1100px !important;
+      padding: 32px 16px !important;
+    }
+    @media screen and (max-width: 768px) {
+      max-width: 720px !important;
+      padding: 32px 16px !important;
+    }
+    @media screen and (max-width: 480px) {
+      max-width: 375px;
+      padding: 32px 16px;
+    }
+  }
+
+  h4 {
+    font-family: "General Sans Variable";
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    color: #0a2244;
+  }
+
+  .intro {
+    display: block;
+
+    .subtitle {
+      font-family: "General Sans Variable";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+      display: flex;
+      align-items: flex-end;
+      text-transform: uppercase;
+      color: #828fa5;
+      padding: 0 0 12px;
+    }
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 120px;
+    @media screen and (max-width: 768px) {
+      grid-template-columns: repeat(1, 1fr)!important;
+      gap: 24px!important;
+    }
+
+    h4 {
+      margin: 16px 0;
+      font-weight: 500;
+    }
+
+    p {
+      font-family: "General Sans Variable";
+      font-style: normal;
+      font-size: 17px;
+      line-height: 28px;
+      color: #616d82;
+    }
+
+    a {
+      text-decoration: none;
+      font-style: normal;
+      font-size: 22px;
+      line-height: 30px;
+      color: #0a2244;
+    }
+
+    .left-box {
+      .title {
+        padding: 0;
+        h2 {
+          margin: 0 0 16px;
+          font-weight: 500;
+          color: #0a2244;
+        }
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .right-box {
+      display: grid;
+      gap: 8px;
+      .box {
+        display: flex;
+        gap: 40px;
+        padding: 16px 0;
+        border-bottom: 1px solid #e1e4ec;
+        place-items: center;
+        width: 600px;
+        @media screen and (max-width: 768px) {
+          flex-direction: column!important;
+          gap: 16px!important;
+          place-items: baseline!important;
+          padding: 24px 0!important;
+          width: 100%!important;
+        }
+        h4 {
+          margin: 0 0 16px;
+        }
+        img {
+          width: 80px;
+          height: 80px;
+        }
+        .text {
+          max-width: 480px;
+          @media screen and (max-width: 480px) {
+            max-width: 350px!important;
+          }
+        }
+      }
+    }
+  }
+}

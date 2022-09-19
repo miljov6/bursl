@@ -1,0 +1,106 @@
+.pension_plans {
+    background: #fff;
+  
+    .container-fluid {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 80px 60px 70px 60px;
+    }
+  
+    h4 {
+      font-family: "General Sans Variable";
+      font-style: normal;
+      font-size: 22px;
+      line-height: 30px;
+      color: #0a2244;
+    }
+  
+    .intro {
+      display: block;
+  
+      .subtitle {
+        font-family: "General Sans Variable";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        align-items: flex-end;
+        text-transform: uppercase;
+        color: #828fa5;
+        padding: 0 0 12px;
+      }
+    }
+  
+    .boxes {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 120px;
+  
+        h4 {
+          margin: 16px 0;
+          font-weight: 500;
+        }
+  
+        p {
+          font-family: "General Sans Variable";
+          font-style: normal;
+          font-size: 17px;
+          line-height: 28px;
+          color: #616d82;
+        }
+  
+        a {
+          text-decoration: none;
+          font-style: normal;
+          font-size: 22px;
+          line-height: 30px;
+          color: #0a2244;
+        }
+  
+      .left-box {
+        .title {
+          padding: 0;
+          h2 {
+            margin: 0 0 16px;
+            font-weight: 500;
+            color: #0a2244;
+          }
+        }
+  
+        p {
+          margin: 0;
+        }
+      }
+  
+      .right-box {
+        display: grid;
+        gap: 8px;
+        padding-right: 60px;
+        .box {
+          display: flex;
+          gap: 40px;
+          padding: 16px 0;
+          border-bottom: 1px solid #e1e4ec;
+          place-items: center;
+          width: 600px;
+          h4 {
+            margin: 0 0 16px;
+          }
+          img {
+            width: 80px;
+            height: 80px;
+          }
+          .text{
+              max-width: 480px;
+          }
+        }
+      }
+    }
+  }
+  

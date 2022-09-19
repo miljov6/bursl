@@ -1,0 +1,151 @@
+.localised-payroll .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.localised-payroll .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 60px 70px 80px;
+}
+
+@media screen and (max-width: 1100px) {
+  .localised-payroll .container {
+    max-width: 1100px !important;
+    padding: 32px 16px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .localised-payroll .container {
+    max-width: 720px !important;
+    padding: 32px 16px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .localised-payroll .container {
+    max-width: 375px;
+    padding: 32px 16px;
+  }
+}
+
+.localised-payroll .intro {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.localised-payroll .intro .title {
+  display: grid;
+  gap: 24px;
+  padding: 0;
+}
+
+.localised-payroll .intro .title h2 {
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.localised-payroll .intro .title p {
+  color: #616d82;
+  font-weight: 500;
+}
+
+.localised-payroll .intro .title ul {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.localised-payroll .intro .title li {
+  margin: 0;
+  padding: 12px 0;
+  color: #616D82;
+}
+
+.localised-payroll .intro .subtitle {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.localised-payroll .items ul {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.localised-payroll .items li {
+  margin: 0;
+  padding: 12px 0;
+  color: #616d82;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.localised-payroll .boxes {
+  display: grid;
+  gap: 60px;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+  .localised-payroll .boxes {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+}
+
+.localised-payroll .boxes .rigth {
+  width: 100%;
+}
+
+.localised-payroll .boxes .rigth .box {
+  display: flex;
+  border-bottom: 1px solid #e1e4ec;
+  padding: 32px 0;
+  gap: 36px;
+  place-items: baseline;
+}
+
+.localised-payroll .boxes .rigth .box span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  color: #616d82;
+}
+
+.localised-payroll .boxes .rigth .box .points {
+  width: 100%;
+}
+
+.localised-payroll .boxes .rigth .box .points h4 {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #0a2244;
+  margin: 0;
+}
+
+.localised-payroll .boxes .rigth .box .points p {
+  margin: 0;
+}
+
+.localised-payroll .boxes .left {
+  width: 100%;
+}
+
+/*# sourceMappingURL=_expense_management.css.map */

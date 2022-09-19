@@ -1,0 +1,141 @@
+.for_legal_teams_reviews .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.for_legal_teams_reviews .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 48px 150px 70px 150px;
+}
+
+@media screen and (max-width: 480px) {
+  .for_legal_teams_reviews .container {
+    max-width: 375px;
+    padding: 34px 16px;
+  }
+}
+
+.for_legal_teams_reviews .intro {
+  display: block;
+  text-align: center;
+  padding: 40px 0 104px;
+}
+
+@media screen and (max-width: 480px) {
+  .for_legal_teams_reviews .intro {
+    padding: 0;
+  }
+}
+
+.for_legal_teams_reviews .intro .title {
+  padding: 0;
+}
+
+.for_legal_teams_reviews .intro .title h2 {
+  margin: 12px 0;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.for_legal_teams_reviews .intro .subtitle {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.for_legal_teams_reviews .reviews_slider .review {
+  text-align: center;
+  text-align: -webkit-center;
+  place-content: center;
+}
+
+.for_legal_teams_reviews .reviews_slider .review .review_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #0a2244;
+  max-width: 780px;
+}
+
+.for_legal_teams_reviews .reviews_slider .review .review_details {
+  padding: 56px 0;
+  margin: 0 auto;
+  text-align: -webkit-center;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  place-items: center;
+}
+
+.for_legal_teams_reviews .reviews_slider .review .review_details img {
+  max-width: 50px;
+  width: 100%;
+}
+
+.for_legal_teams_reviews .reviews_slider .review .review_details .review_name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #0a2244;
+  margin: 24px 0 4px;
+}
+
+.for_legal_teams_reviews .reviews_slider .review .review_details .review_position {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #616d82;
+}
+
+.for_legal_teams_reviews .slick-prev {
+  left: 46%;
+}
+
+.for_legal_teams_reviews .slick-prev::before {
+  content: url("./icons/left.svg") !important;
+}
+
+@media screen and (max-width: 480px) {
+  .for_legal_teams_reviews .slick-prev {
+    left: 5%;
+  }
+}
+
+.for_legal_teams_reviews .slick-next {
+  right: 48%;
+}
+
+.for_legal_teams_reviews .slick-next::before {
+  content: url("./icons/right.svg") !important;
+}
+
+@media screen and (max-width: 480px) {
+  .for_legal_teams_reviews .slick-next {
+    right: 5%;
+  }
+}
+
+.for_legal_teams_reviews .slick-prev, .for_legal_teams_reviews .slick-next {
+  top: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .for_legal_teams_reviews .slick-prev, .for_legal_teams_reviews .slick-next {
+    top: 68%;
+  }
+}
+
+/*# sourceMappingURL=_reviews.css.map */

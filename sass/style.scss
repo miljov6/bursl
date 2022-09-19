@@ -1,0 +1,311 @@
+/*!
+Theme Name: Bursl
+Theme URI: https://bursl.com/
+Author: Mili Jovicic
+Author URI: https://milijov.xyz/
+Description: Bursl Wordpress Theme
+Version: 1.0.0/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+// Import variables and mixins.
+@import "abstracts/abstracts";
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+@import "generic/normalize";
+
+/* Box sizing
+--------------------------------------------- */
+@import "generic/box-sizing";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "base/base";
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+// @import "layouts/content-sidebar"; // Uncomment this line for a sidebar on right side of your content.
+// @import "layouts/sidebar-content"; // Uncomment this line for a sidebar on left side of your content.
+
+@import "layouts/footer";
+@import "layouts/front";
+@import "layouts/global_payroll";
+@import "layouts/compliance_tax";
+@import "layouts/contracts";
+@import "layouts/recruitment";
+@import "layouts/employees";
+@import "layouts/contractors";
+@import "layouts/how_it_works_page";
+@import "layouts/payments";
+@import "layouts/finance_teams";
+@import "layouts/local_partnership";
+@import "layouts/global_benefits_page";
+@import "layouts/onboarding";
+@import "layouts/contactus";
+@import "layouts/header";
+@import "layouts/underbox";
+@import "layouts/faq";
+@import "layouts/blog";
+@import "layouts/aboutus";
+
+
+// Homepage
+
+@import "layouts/homepage/how-works";
+@import "layouts/homepage/onboard";
+@import "layouts/homepage/compliance";
+@import "layouts/homepage/onboard_2";
+@import "layouts/homepage/reviews";
+@import "layouts/homepage/remote";
+@import "layouts/homepage/solutions";
+
+// Global Payroll
+
+@import "layouts/global_payroll/how-does";
+@import "layouts/global_payroll/global_contract";
+@import "layouts/global_payroll/single_click";
+@import "layouts/global_payroll/insights";
+@import "layouts/global_payroll/local_employee";
+@import "layouts/global_payroll/what_is_payroll";
+
+// Compliance/Tax
+
+@import "layouts/compliance_tax/how_it_works";
+@import "layouts/compliance_tax/contract_compliance";
+@import "layouts/compliance_tax/legal_compliance";
+@import "layouts/compliance_tax/tax_compliance";
+@import "layouts/compliance_tax/benefits";
+@import "layouts/compliance_tax/payroll_compliance";
+@import "layouts/compliance_tax/compliance_on_all";
+@import "layouts/compliance_tax/data_protection";
+@import "layouts/compliance_tax/avoid_compliance_fines";
+@import "layouts/compliance_tax/why";
+
+
+// Contracts
+
+@import "layouts/contracts/how_it_works";
+@import "layouts/contracts/local_compliance";
+@import "layouts/contracts/how_it_works_2";
+@import "layouts/contracts/global_hiring";
+@import "layouts/contracts/employee_cost_calculation";
+@import "layouts/contracts/global_benefits";
+@import "layouts/contracts/why_work_with";
+@import "layouts/contracts/book_demo";
+
+
+// Recrutiment
+@import "layouts/recruitment/how_it_works";
+@import "layouts/recruitment/connect_with_us";
+@import "layouts/recruitment/connect_with_us_2";
+@import "layouts/recruitment/how_global_hiring";
+
+// Employees
+@import "layouts/employees/how_it_works";
+@import "layouts/employees/global_coverage";
+@import "layouts/employees/compliance";
+@import "layouts/employees/automated_contracts";
+@import "layouts/employees/expenses";
+@import "layouts/employees/share";
+@import "layouts/employees/onboarding_new";
+@import "layouts/employees/local_recruitment";
+@import "layouts/employees/remote_hiring";
+@import "layouts/employees/why_bursl";
+
+// Contractors
+@import "layouts/contractors/how_it_works";
+@import "layouts/contractors/global_contractor";
+@import "layouts/contractors/compliance";
+@import "layouts/contractors/contractor_onboarding";
+@import "layouts/contractors/expenses";
+@import "layouts/contractors/localised_contractor";
+@import "layouts/contractors/why_bursl";
+@import "layouts/contractors/benefits_summary";
+
+// How It Works
+@import "layouts/how_it_works/expense_management";
+@import "layouts/how_it_works/how_it_contracts";
+@import "layouts/how_it_works/payments";
+@import "layouts/how_it_works/slider";
+@import "layouts/how_it_works/how_it_compliance";
+@import "layouts/how_it_works/recruitment_marketplace";
+@import "layouts/how_it_works/local_partnerships";
+@import "layouts/how_it_works/global_contractor";
+@import "layouts/how_it_works/how_bursl_works";
+@import "layouts/how_it_works/insights";
+@import "layouts/how_it_works/tools";
+@import "layouts/how_it_works/book_demo";
+
+// Payments
+@import "layouts/payments/payroll_process";
+@import "layouts/payments/simplifying_administration";
+@import "layouts/payments/payment_flow";
+@import "layouts/payments/your_data";
+@import "layouts/payments/fully_compliant";
+@import "layouts/payments/enterprise_grade_security";
+@import "layouts/payments/global_one_click";
+@import "layouts/payments/payments_admin";
+@import "layouts/payments/integrate_with_tools";
+@import "layouts/payments/unlock_global_potential";
+@import "layouts/payments/expense_management";
+@import "layouts/payments/integrate_with_businesses";
+
+
+// Finance Teams
+
+@import "layouts/finance_teams/global_payment_solution";
+@import "layouts/finance_teams/business_admin_automation";
+@import "layouts/finance_teams/saving_money";
+@import "layouts/finance_teams/payment_fees_reduction";
+@import "layouts/finance_teams/payment_options";
+@import "layouts/finance_teams/tax_documents_automation";
+@import "layouts/finance_teams/centralized_international_employment"; 
+@import "layouts/finance_teams/finance_dashboarding"; 
+@import "layouts/finance_teams/book_demo"; 
+
+// Local Partnership
+
+@import "layouts/local_partnership/partner_marketplace";
+@import "layouts/local_partnership/hr_partners";
+@import "layouts/local_partnership/legal_partners";
+@import "layouts/local_partnership/accounting_partners";
+@import "layouts/local_partnership/accounting_partners_2";
+@import "layouts/local_partnership/partnering_benefits";
+
+
+// Global Benefits
+
+@import "layouts/global_benefits/how_it_works";
+@import "layouts/global_benefits/medical_insurance";
+@import "layouts/global_benefits/employee_share_schemes";
+@import "layouts/global_benefits/pension_plans";
+@import "layouts/global_benefits/benefits_for_contractors";
+@import "layouts/global_benefits/benefits_for_the_business";
+@import "layouts/global_benefits/pension_plans";
+@import "layouts/global_benefits/insights";
+@import "layouts/global_benefits/book_demo";
+
+// Onboarding
+
+@import "layouts/onboarding/book_demo";
+@import "layouts/onboarding/how_it_works";
+@import "layouts/onboarding/pension_plans";
+@import "layouts/onboarding/why_bursl";
+
+// Solutions
+@import "layouts/solutions";
+@import "layouts/solutions/bursl_benefits";
+@import "layouts/solutions/areas_of_coverage";
+@import "layouts/solutions/for_startups";
+@import "layouts/solutions/for_hiring_managers";
+@import "layouts/solutions/for_legal_team";
+@import "layouts/solutions/global_solutions";
+@import "layouts/solutions/data_dashboarding";
+@import "layouts/solutions/book_demo";
+
+// For Enterprise
+@import "layouts/for_enterprise";
+@import "layouts/for_enterprise/book_demo";
+@import "layouts/for_enterprise/image_text_items";
+@import "layouts/for_enterprise/image_text_items_r";
+
+// For Startups
+@import "layouts/for_startups_page";
+@import "layouts/for_startups/book_demo";
+@import "layouts/for_startups/image_text_items";
+@import "layouts/for_startups/image_text_items_r";
+
+// For Hiring Managers
+@import "layouts/for_hiring_managers";
+@import "layouts/for_hiring_managers/book_demo";
+@import "layouts/for_hiring_managers/image_text_items";
+@import "layouts/for_hiring_managers/image_text_items_r";
+@import "layouts/for_hiring_managers/text_icon_items";
+
+// For Legal Teams
+
+@import "layouts/for_legal_teams";
+@import "layouts/for_legal_teams/book_demo";
+@import "layouts/for_legal_teams/image_text_items";
+@import "layouts/for_legal_teams/image_text_items_r";
+@import "layouts/for_legal_teams/text_boxes_under";
+@import "layouts/for_legal_teams/reviews";
+
+// For Finance Teams
+
+@import "layouts/for_finance_teams";
+@import "layouts/for_finance_teams/book_demo";
+@import "layouts/for_finance_teams/image_text_items";
+@import "layouts/for_finance_teams/image_text_items_r";
+@import "layouts/for_finance_teams/text_boxes_under";
+
+// Partners
+
+@import "layouts/partners";
+@import "layouts/partners/partners";
+@import "layouts/partners/text_boxes_under";
+@import "layouts/partners/image_text_items";
+@import "layouts/partners/image_text_items_r";
+
+// Legal
+
+@import "layouts/legal";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "components/components";
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+/* Jetpack infinite scroll
+--------------------------------------------- */
+@import "plugins/jetpack/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+/* Accessibility
+--------------------------------------------- */
+@import "utilities/accessibility";
+
+/* Alignments
+--------------------------------------------- */
+@import "utilities/alignments";

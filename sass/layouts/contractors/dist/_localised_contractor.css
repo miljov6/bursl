@@ -1,0 +1,114 @@
+.localised_contractor .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+.localised_contractor .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 48px 60px 70px 60px;
+}
+
+@media screen and (max-width: 1100px) {
+  .localised_contractor .container {
+    max-width: 1100px !important;
+    padding: 32px 16px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .localised_contractor .container {
+    max-width: 720px !important;
+    padding: 32px 16px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .localised_contractor .container {
+    max-width: 375px;
+    padding: 32px 16px;
+  }
+}
+
+.localised_contractor .intro {
+  display: grid;
+  grid-template-columns: 10fr 17fr;
+  place-items: self-start;
+  padding: 40px 0 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .localised_contractor .intro {
+    grid-template-columns: 1fr;
+    padding: 0 0 32px;
+  }
+}
+
+.localised_contractor .intro .title {
+  padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .localised_contractor .intro .title {
+    padding: 0;
+  }
+}
+
+.localised_contractor .intro .title h2 {
+  margin: 0 0 16px;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.localised_contractor .intro .subtitle {
+  padding: 10px 0;
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.localised_contractor .boxes {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .localised_contractor .boxes {
+    flex-direction: column;
+    gap: 16px;
+    place-items: baseline;
+  }
+}
+
+.localised_contractor .boxes .box {
+  border: 1px solid #e1e4ec;
+  border-radius: 12px;
+  padding: 32px 32px 62px;
+  text-align: center;
+  max-width: 420px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .localised_contractor .boxes .box {
+    border: 0;
+    border-bottom: 1px solid #e1e4ec;
+    border-radius: 0;
+    padding: 0 0 32px;
+  }
+}
+
+.localised_contractor .boxes .box h3 {
+  margin: 32px 0 0;
+}
+
+/*# sourceMappingURL=_localised_contractor.css.map */

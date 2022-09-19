@@ -1,0 +1,112 @@
+.finance_page_demo {
+  background: #fff;
+}
+
+.finance_page_demo .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.finance_page_demo .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 92px 60px 92px;
+}
+
+.finance_page_demo .three_boxes {
+  display: flex;
+  align-content: flex-start;
+}
+
+.finance_page_demo .three_boxes .left-image-box {
+  display: grid;
+  align-content: end;
+}
+
+.finance_page_demo .three_boxes .right-image-box {
+  display: block;
+}
+
+.finance_page_demo .three_boxes .intro {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 40px;
+  max-width: 50%;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.finance_page_demo .three_boxes .intro .title {
+  display: grid;
+  gap: 16px;
+  padding: 0;
+}
+
+.finance_page_demo .three_boxes .intro .title h2 {
+  margin: 0;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.finance_page_demo .three_boxes .intro .title p {
+  color: #616d82;
+}
+
+.finance_page_demo .three_boxes .intro .subtitle {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #828fa5;
+  justify-content: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.finance_page_demo .three_boxes .intro .btn {
+  position: relative;
+  text-align: center;
+  border-radius: 25px;
+  background: #f76c34;
+  color: #fff;
+  width: 158px;
+  height: fit-content;
+  transition: 0.4s;
+  padding: 13px 10px;
+  margin: 20px auto 0;
+}
+
+.finance_page_demo .three_boxes .intro .btn:hover {
+  background: #fff;
+  border: 1px solid #f76c34;
+  border: 0;
+  color: #f76c34;
+}
+
+.finance_page_demo .three_boxes .intro .btn span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.finance_page_demo .three_boxes .intro .btn a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.global_benefits_demo_box .container {
+  padding: 0 92px 32px 92px;
+}
+
+/*# sourceMappingURL=_book_demo.css.map */

@@ -1,0 +1,106 @@
+.insights {
+  .container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 60px 70px 60px;
+    @media screen and (max-width: 480px) {
+      max-width: 375px;
+      padding: 32px 16px;
+    }
+  }
+  .intro {
+    display: grid;
+    grid-template-columns:10fr 17fr;
+    place-items: self-start;
+    padding: 40px 0 64px;
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+
+    .title {
+      padding: 0px;
+
+      h2 {
+        margin: 0 0 16px;
+        font-weight: 500;
+        color: #0a2244;
+      }
+    }
+
+    .subtitle {
+      padding: 10px 0;
+      font-family: "General Sans Variable";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+      display: flex;
+      align-items: flex-end;
+      text-transform: uppercase;
+      color: #828fa5;
+    }
+  }
+  .boxes {
+    display: flex;
+    gap: 100px;
+    place-items: center;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .right {
+      width: 100%;
+      @media screen and (max-width: 768px) {
+        order: 2;
+      }
+      .box {
+        display: flex;
+        border-bottom: 1px solid #e1e4ec;
+        padding: 16px;
+        gap: 36px;
+        place-items: baseline;
+        min-height: 25px;
+        @media screen and (max-width: 768px) {
+          gap: 12px;
+          padding: 16px 0;
+        }
+        span {
+          font-family: "General Sans Variable";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 17px;
+          line-height: 28px;
+          color: #616d82;
+        }
+        .points {
+          width: 100%;
+          h4 {
+            font-family: "General Sans Variable";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 30px;
+            color: #0a2244;
+            margin: 0 0 16px;
+          }
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+    .left {
+      width: 100%;
+      @media screen and (max-width: 768px) {
+        order: 1;
+      }
+    }
+  }
+}

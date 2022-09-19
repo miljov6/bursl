@@ -1,0 +1,106 @@
+.benefits_for_contractors {
+    background: #fff;
+  
+    .container-fluid {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 38px 60px 40px 60px;
+    }
+  
+    .intro {
+      display: grid;
+      grid-template-columns: 10fr 17fr;
+      place-items: self-start;
+      padding: 40px 0 64px;
+  
+      .title {
+        padding: 0px;
+  
+        h2 {
+          margin: 0 0 16px;
+          font-weight: 500;
+          color: #0a2244;
+        }
+      }
+  
+      .subtitle {
+        padding: 10px 0;
+        font-family: "General Sans Variable";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        align-items: flex-end;
+        text-transform: uppercase;
+        color: #828fa5;
+      }
+    }
+  
+    .boxes {
+      display: flex;
+      gap: 30px;
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
+  
+      h3 {
+        margin: 16px 0;
+      }
+  
+      .box {
+        text-align: center;
+        max-width: 420px;
+        width: 100%;
+        display: grid;
+        border-radius: 12px;
+  
+        .txt {
+          padding: 110px 32px;
+          @media screen and (max-width: 480px) {
+            padding: 32px 16px;
+          }
+          h4{
+            margin: 0 0 16px;
+          }
+        }
+  
+        .box-img {
+          width: max-content;
+          max-height: 320px;
+  
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .box-1 {
+        background: #0A2244;
+        color: #ffffff;
+        h4 {
+          color: #fff;
+          @media screen and (max-width: 480px) {
+            margin: 0 0 16px;
+          }
+        }
+        p {
+          color: #fff;
+          opacity: 0.8;
+        }
+      }
+  
+      .box-2 {
+        background: #f2f4fa;
+        .box-img {
+        display: grid;
+        place-content: end;
+        }
+      }
+    }
+  }
+  

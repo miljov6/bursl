@@ -1,0 +1,28 @@
+// Fonts & Typography
+@font-face {
+  font-family: "General Sans Variable";
+  src: url("./fonts/GeneralSans-Medium.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "General Sans Variable Regular";
+  src: url("./fonts/GeneralSans-Regular.ttf");
+  font-weight: 400;
+}
+
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  color: $color__text-main;
+  font-family: $font__main;
+  font-size: 1rem;
+  line-height: $font__line-height-body;
+}
+
+@import "headings";
+@import "copy";

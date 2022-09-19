@@ -1,0 +1,96 @@
+.for_hiring_managers {
+  .container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 78px 60px 37px 60px;
+  }
+  .intro {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 5px;
+    grid-template-columns: 10fr 17fr;
+
+    .title {
+      display: grid;
+      gap: 16px;
+      padding: 0;
+      max-width: 720px;
+      width: 100%;
+
+      h2 {
+        margin: 0;
+        font-weight: 500;
+        color: #0a2244;
+      }
+
+      p {
+        color: #616d82;
+        font-weight: 500;
+        margin: 0;
+      }
+    }
+
+    .subtitle {
+      font-family: "General Sans Variable";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+      display: flex;
+      align-items: flex-end;
+      text-transform: uppercase;
+      color: #828fa5;
+    }
+  }
+  .boxes {
+    display: flex;
+    gap: 100px;
+    place-items: center;
+
+    .right {
+      width: 100%;
+      padding-right: 60px;
+      .box {
+        display: flex;
+        border-bottom: 1px solid #e1e4ec;
+        padding: 24px 0;
+        gap: 36px;
+        place-items: baseline;
+        place-items: baseline;
+        span {
+          font-family: "General Sans Variable";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 17px;
+          line-height: 28px;
+          color: #616d82;
+        }
+        .points {
+          width: 100%;
+          h4 {
+            font-family: "General Sans Variable";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 30px;
+            color: #0a2244;
+            margin: 0;
+          }
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+    .left {
+      width: 100%;
+    }
+  }
+}
+

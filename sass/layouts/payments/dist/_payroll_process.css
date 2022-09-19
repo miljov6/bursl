@@ -1,0 +1,191 @@
+.payroll_process {
+  background: #fff;
+  border-radius: 50px 50px 0 0;
+}
+
+.payroll_process .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.payroll_process .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 60px 70px 60px;
+}
+
+@media screen and (max-width: 1100px) {
+  .payroll_process .container {
+    max-width: 1100px !important;
+    padding: 32px 16px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .payroll_process .container {
+    max-width: 720px !important;
+    padding: 32px 16px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .payroll_process .container {
+    max-width: 375px;
+    padding: 32px 16px;
+  }
+}
+
+.payroll_process .intro {
+  display: grid;
+  grid-template-columns: 10fr 17fr;
+  place-items: self-start;
+  padding: 40px 0 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .payroll_process .intro {
+    grid-template-columns: 1fr;
+    padding: 0 0 32px;
+  }
+}
+
+.payroll_process .intro .title {
+  padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .payroll_process .intro .title {
+    padding: 0;
+  }
+}
+
+.payroll_process .intro .title h2 {
+  margin: 0 0 16px;
+  font-weight: 500;
+  color: #0a2244;
+}
+
+.payroll_process .intro .subtitle {
+  padding: 10px 0;
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  color: #828fa5;
+}
+
+.payroll_process .boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .payroll_process .boxes {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    place-items: baseline;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .payroll_process .boxes .mob-box {
+    display: none;
+  }
+}
+
+.payroll_process .boxes #box-1 {
+  position: relative;
+}
+
+@media screen and (min-width: 1100px) {
+  .payroll_process .boxes #box-1::after {
+    content: url("./icons/bg-arrows.svg");
+    position: absolute;
+    top: 32%;
+    left: 56%;
+    transform: translate(50%, -50%);
+  }
+}
+
+.payroll_process .boxes #box-2 {
+  position: relative;
+}
+
+@media screen and (min-width: 1100px) {
+  .payroll_process .boxes #box-2::after {
+    content: url("./icons/bg-arrows-1.svg");
+    position: absolute;
+    top: 32%;
+    left: 56%;
+    transform: translate(50%, -50%);
+  }
+}
+
+.payroll_process .boxes #box-4 {
+  position: relative;
+}
+
+@media screen and (min-width: 1100px) {
+  .payroll_process .boxes #box-4::after {
+    content: url("./icons/bg-arrows-3.svg");
+    position: absolute;
+    top: 10%;
+    left: 78%;
+    transform: translate(50%, -50%);
+  }
+}
+
+.payroll_process .boxes #box-5 {
+  position: relative;
+}
+
+@media screen and (min-width: 1100px) {
+  .payroll_process .boxes #box-5::after {
+    content: url("./icons/bg-arrows-4.svg");
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(50%, -50%);
+  }
+}
+
+.payroll_process .boxes #box-6 {
+  position: relative;
+}
+
+@media screen and (min-width: 1100px) {
+  .payroll_process .boxes #box-6::after {
+    content: url("./icons/bg-arrows-5.svg");
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    transform: translate(50%, -50%);
+  }
+}
+
+.payroll_process .boxes .box {
+  border: 0;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  max-width: 420px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .payroll_process .boxes .box {
+    border: 0;
+    border-bottom: 1px solid #e1e4ec;
+    border-radius: 0;
+    padding: 32px 0;
+  }
+}
+
+/*# sourceMappingURL=_payroll_process.css.map */

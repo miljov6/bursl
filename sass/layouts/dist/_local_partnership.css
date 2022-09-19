@@ -1,0 +1,124 @@
+.local_partnership {
+  background: #f3f2fa;
+  background-image: url("./icons/background.png");
+  background-size: cover;
+}
+
+.local_partnership .container-fluid {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.local_partnership .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 120px 41px 60px;
+}
+
+.local_partnership h1 {
+  color: #0a2244;
+  margin: 0;
+}
+
+.local_partnership p {
+  color: #616d82;
+}
+
+.local_partnership .title {
+  padding: 292px 0 30px;
+}
+
+.local_partnership .under_title {
+  display: flex;
+  gap: 156px;
+  place-items: center;
+  max-width: 1300px;
+}
+
+.local_partnership p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.local_partnership .btns {
+  display: flex;
+  gap: 8px;
+}
+
+.local_partnership .btns .talk {
+  position: relative;
+  text-align: center;
+  border: 1px solid #0a2244;
+  border-radius: 25px;
+  color: #0a2244;
+  width: 158px;
+  height: fit-content;
+  transition: 0.4s;
+  padding: 13px 10px;
+}
+
+.local_partnership .btns .talk:hover {
+  color: #fff;
+  background: #0a2244;
+  border: 0;
+}
+
+.local_partnership .btns .talk a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.local_partnership .btns .talk span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.local_partnership .btns .try {
+  position: relative;
+  text-align: center;
+  width: 158px;
+  height: fit-content;
+  border-radius: 25px;
+  background: #f76c34;
+  color: #fff;
+  transition: 0.4s;
+  padding: 13px 10px;
+}
+
+.local_partnership .btns .try:hover {
+  color: #f76c34;
+  background: #fff;
+  border: 1px solid #f76c34;
+}
+
+.local_partnership .btns .try a {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.local_partnership .btns .try span {
+  font-family: "General Sans Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=_local_partnership.css.map */
