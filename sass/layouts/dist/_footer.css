@@ -41,6 +41,12 @@
   padding-bottom: 105px;
 }
 
+@media screen and (max-width: 768px) {
+  .site-footer .container .footer-up {
+    flex-direction: column;
+  }
+}
+
 .site-footer .container .footer_left {
   width: 80%;
 }

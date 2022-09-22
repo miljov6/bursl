@@ -15,6 +15,13 @@ h1 {
   line-height: 160px;
 }
 
+@media screen and (max-width: 1201px) {
+  h1 {
+    font-size: 80px;
+    line-height: 96px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 40px;
@@ -28,6 +35,13 @@ h2 {
   font-weight: 500;
   font-size: 48px;
   line-height: 65px;
+}
+
+@media screen and (max-width: 1201px) {
+  h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {

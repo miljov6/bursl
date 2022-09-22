@@ -36,13 +36,13 @@
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .contract_compliance .mobile-img {
     display: block;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .contract_compliance .desktop {
     display: none;
   }

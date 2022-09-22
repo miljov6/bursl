@@ -11,10 +11,38 @@
   padding: 10px 60px 116px 60px !important;
 }
 
+@media screen and (max-width: 1390px) and (min-width: 1201px) {
+  .underbox .container {
+    max-width: 100vw;
+    padding: 9vh 4.25vw;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .underbox .container {
+    max-width: 100vw;
+    padding: 7vh 4.25vw;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .underbox .container {
+    max-width: 100vw;
+    padding: 7vh 4.25vw !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .underbox .container {
+    max-width: 100vw;
+    padding: 4vh 4.25vw !important;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .underbox .container {
-    max-width: 375px;
-    padding: 32px 16px 48px;
+    max-width: 100vw;
+    padding: 4vh 4.25vw !important;
   }
 }
 
@@ -28,7 +56,7 @@
   border-radius: 25px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
   .underbox .under_boxes {
     padding: 48px 24px;
   }

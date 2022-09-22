@@ -144,7 +144,7 @@
 .blog_page .btns .try:hover {
   color: #f76c34;
   background: #fff;
-  border: 0;
+  border: 1px solid #f76c34;
 }
 
 .blog_page .btns .try a {

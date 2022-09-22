@@ -1,46 +1,86 @@
-.how_insights {
-  background: #fff;
-}
-
-.how_insights .container-fluid {
+.insights .container-fluid {
   width: 100%;
   padding: 0;
   margin: 0;
+  background: #fff;
 }
 
-.how_insights .container {
+.insights .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 63px 60px 70px 60px;
+  padding: 40px 60px 70px 60px;
 }
 
-.how_insights h4 {
-  font-family: "General Sans Variable";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 30px;
-  color: #0a2244;
+@media screen and (max-width: 1390px) and (min-width: 1201px) {
+  .insights .container {
+    max-width: 100vw;
+    padding: 9vh 4.25vw;
+  }
 }
 
-.how_insights .intro {
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .insights .container {
+    max-width: 100vw;
+    padding: 7vh 4.25vw;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .insights .container {
+    max-width: 100vw;
+    padding: 7vh 4.25vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .insights .container {
+    max-width: 100vw;
+    padding: 4vh 4.25vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .insights .container {
+    max-width: 100vw;
+    padding: 4vh 4.25vw;
+  }
+}
+
+.insights .intro {
   display: grid;
-  grid-template-columns: 10fr 17fr;
+  grid-template: none;
+  text-align: center;
   place-items: self-start;
-  padding: 40px 0 40px;
+  padding: 40px 0 64px;
 }
 
-.how_insights .intro .title {
-  padding: 0px;
+@media screen and (max-width: 768px) {
+  .insights .intro {
+    padding: 0 0 32px;
+    grid-template-columns: 1fr;
+  }
 }
 
-.how_insights .intro .title h2 {
-  margin: 0;
+.insights .intro .title {
+  padding: 0;
+  width: 65%;
+  place-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .insights .intro .title {
+    width: 100%;
+  }
+}
+
+.insights .intro .title h2 {
+  margin: 0 0 16px;
   font-weight: 500;
   color: #0a2244;
 }
 
-.how_insights .intro .subtitle {
+.insights .intro .subtitle {
+  padding: 0;
   font-family: "General Sans Variable";
   font-style: normal;
   font-weight: 500;
@@ -52,25 +92,46 @@
   color: #828fa5;
 }
 
-.how_insights .boxes {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 60px;
+.insights .boxes {
+  display: flex;
+  gap: 100px;
+  place-items: center;
 }
 
-.how_insights .boxes .box {
-  text-align: left;
-  max-width: 600px;
+@media screen and (max-width: 1024px) {
+  .insights .boxes {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+.insights .boxes .right {
   width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .insights .boxes .right {
+    order: 2;
+  }
+}
+
+.insights .boxes .right .box {
+  display: flex;
   border-bottom: 1px solid #e1e4ec;
+  padding: 16px;
+  gap: 36px;
+  place-items: baseline;
+  min-height: 25px;
 }
 
-.how_insights .boxes .box h4 {
-  margin: 16px 0;
-  font-weight: 500;
+@media screen and (max-width: 1024px) {
+  .insights .boxes .right .box {
+    gap: 12px;
+    padding: 16px 0;
+  }
 }
 
-.how_insights .boxes .box p {
+.insights .boxes .right .box span {
   font-family: "General Sans Variable";
   font-style: normal;
   font-weight: 500;
@@ -79,110 +140,33 @@
   color: #616d82;
 }
 
-.how_insights .boxes .box a {
-  text-decoration: none;
+.insights .boxes .right .box .points {
+  width: 100%;
+}
+
+.insights .boxes .right .box .points h4 {
+  font-family: "General Sans Variable";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 30px;
   color: #0a2244;
+  margin: 0 0 16px;
 }
 
-.how_insights .boxes .left-box {
-  padding: 32px 32px 48px;
-  background: #ffffff;
-  border: 1px solid #e1e4ec;
-  border-radius: 12px;
-}
-
-.how_insights .boxes .left-box h4 {
-  margin: 32px 0 16px;
-  font-weight: 500;
-}
-
-.how_insights .boxes .left-box p {
-  margin-bottom: 24px;
-}
-
-.how_insights .boxes .left-box .btn {
-  position: relative;
-  text-align: center;
-  border: 1px solid #0a2244;
-  border-radius: 25px;
-  color: #0a2244;
-  max-width: 224px;
-  width: 100%;
-  height: fit-content;
-  transition: 0.4s;
-  padding: 15px 10px;
-}
-
-.how_insights .boxes .left-box .btn:hover {
-  background: #0a2244;
-  border: 0;
-  color: #fff;
-}
-
-.how_insights .boxes .left-box .btn span {
-  font-family: "General Sans Variable";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
+.insights .boxes .right .box .points p {
   margin: 0;
-  padding: 0;
 }
 
-.how_insights .boxes .left-box .btn a {
-  position: absolute;
-  height: 100%;
+.insights .boxes .left {
   width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 1;
 }
 
-.how_insights .boxes .right-box p {
-  margin-bottom: 24px;
-}
-
-.how_insights .boxes .right-box .btn {
-  position: relative;
-  text-align: center;
-  border: 1px solid #0a2244;
-  border-radius: 25px;
-  color: #0a2244;
-  max-width: 158px;
-  width: 100%;
-  height: fit-content;
-  transition: 0.4s;
-  margin-top: 20px;
-  padding: 15px 10px;
-}
-
-.how_insights .boxes .right-box .btn:hover {
-  background: #0a2244;
-  border: 0;
-  color: #fff;
-}
-
-.how_insights .boxes .right-box .btn span {
-  font-family: "General Sans Variable";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  margin: 0;
-  padding: 0;
-}
-
-.how_insights .boxes .right-box .btn a {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 1;
+@media screen and (max-width: 1024px) {
+  .insights .boxes .left {
+    order: 1;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=_insights.css.map */

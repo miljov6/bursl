@@ -13,7 +13,7 @@
             <?php $twitter =  get_field('twitter_page', 'option'); ?>
                 <a href="<?php echo $facebook; ?>"><img src="<?php echo get_site_url(); ?>/wp-content/themes/bursl/icons/facebook.svg"></a>
                 <a href="<?php echo $instagram; ?>"><img src="<?php echo get_site_url(); ?>/wp-content/themes/bursl/icons/instagram.svg"></a>
-                <a href="<?php echo $twitter; ?>"><img src="<?php echo get_site_url(); ?>/wp-content/themes/bursl/icons/twitter.svg"></a>
+                <a href="<?php echo $twitter; ?>" style="display:none;"><img src="<?php echo get_site_url(); ?>/wp-content/themes/bursl/icons/twitter.svg"></a>
             </div>
         </div>
         <div class="footer_right">
@@ -32,8 +32,15 @@
         </div>
         </div>
         <div class="site-info">
+			<div class="copy-right">
 				<?php $copyright =  get_field('copyright', 'option'); ?>
 				<p class="copyright"><?php echo $copyright; ?></p>
+			</div>
+				<div class="footer-menu-bottom">
+					<?php $copyright =  get_field('copyright', 'option'); ?>
+				<a href="<?php echo get_field('privacy_menu_link', 'option'); ?>">Privacy Menu</a>
+					<a href="<?php echo get_field('terms_of_service_link', 'option'); ?>">Terms of Service</a>
+			</div>
 		</div>
     </div>
 </div>

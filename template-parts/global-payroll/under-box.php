@@ -12,7 +12,7 @@ if (have_rows('under_boxes')) :
                     <div class="under_boxes">
 
                         <h2><?php echo $title; ?></h2>
-                        <p><?php echo $title; ?></p>
+                        <p><?php echo $text; ?></p>
                         <div class="btn">
                             <span><?php echo $btn_text; ?></span>
                             <a href="<?php echo $btn_url; ?>"></a>

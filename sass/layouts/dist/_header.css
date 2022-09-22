@@ -46,7 +46,7 @@
     margin-left: auto;
     margin-right: auto;
     left: 0;
-    right: 34%;
+    right: 0;
     text-align: center;
     align-self: unset;
   }
@@ -62,12 +62,6 @@
     right: 0;
     text-align: center;
     align-self: unset;
-  }
-}
-
-@media screen and (max-width: 1252px) {
-  .site-header .right_nav {
-    display: none;
   }
 }
 
@@ -132,7 +126,7 @@
   place-items: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1252px) {
   .site-header .right_nav {
     display: none;
   }
@@ -149,7 +143,7 @@
   border: 1px solid #0a2244;
   border-radius: 25px;
   color: #0a2244;
-  width: 158px;
+  width: 200px;
   height: fit-content;
   transition: 0.4s;
   padding: 13px 10px;
@@ -843,6 +837,10 @@
 
 .about_us_sect .container {
   padding: 50px 60px 100px 60px;
+}
+
+.active {
+  transition: 10.4s;
 }
 
 /*# sourceMappingURL=_header.css.map */

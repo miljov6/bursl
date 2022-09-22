@@ -59,6 +59,7 @@
   gap: 28px;
   border-bottom: 1px solid #e1e4ec;
   width: 100%;
+  transition: 0.4s;
 }
 
 .faq .faq .question h3 {

@@ -14,7 +14,7 @@
 	<div class="container-fluid">
 			<div class="container">
 				<p>0 search results for:</p>
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', '_s' ); ?></h1>
+		<h1 class="page-title"><?php printf(esc_html__('%s', '_s'), '<span>' . get_search_query() . '</span>'); ?></h1>
 		</div>
 		</div>
 	</header><!-- .page-header -->

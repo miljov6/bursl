@@ -14,10 +14,38 @@
   padding: 48px 60px 70px 60px;
 }
 
+@media screen and (max-width: 1390px) and (min-width: 1201px) {
+  .local_employee_portal .container {
+    max-width: 100vw;
+    padding: 9vh 4.25vw;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .local_employee_portal .container {
+    max-width: 100vw;
+    padding: 7vh 4.25vw;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .local_employee_portal .container {
+    max-width: 100vw;
+    padding: 7vh 4.25vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .local_employee_portal .container {
+    max-width: 100vw;
+    padding: 4vh 4.25vw;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .local_employee_portal .container {
-    max-width: 375px;
-    padding: 32px 16px;
+    max-width: 100vw;
+    padding: 4vh 4.25vw;
   }
 }
 
@@ -28,10 +56,10 @@
   padding: 40px 0 56px;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1024px) {
   .local_employee_portal .intro {
     grid-template-columns: 1fr;
-    padding: 0 0 40px;
+    padding: 0 0 32px;
   }
 }
 
@@ -41,7 +69,7 @@
   gap: 24px;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1024px) {
   .local_employee_portal .intro .title {
     padding: 0;
   }
@@ -53,7 +81,7 @@
   color: #0a2244;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1024px) {
   .local_employee_portal .intro .title h2 {
     margin: 0 0 16px;
   }
@@ -77,10 +105,12 @@
   gap: 30px;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1024px) {
   .local_employee_portal .boxes {
     flex-direction: column;
     gap: 32px;
+    text-align: center;
+    align-items: center;
   }
 }
 
@@ -95,7 +125,7 @@
   padding: 16px 32px 37px;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1024px) {
   .local_employee_portal .boxes .box {
     padding: 0;
   }
